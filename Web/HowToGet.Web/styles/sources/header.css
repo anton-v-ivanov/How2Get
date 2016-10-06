@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header .slogan {
+    margin-bottom: 60px;
+    text-align: center;
+}

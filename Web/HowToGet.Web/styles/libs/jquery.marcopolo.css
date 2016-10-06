@@ -1,0 +1,70 @@
+.mp_input {
+    padding-right: 30px;
+}
+
+.mp_list {
+    position: absolute;
+    width: 90%;
+    padding: 0;
+    margin: -5px 0 0;
+    border: 1px solid #c2c2c2;
+    list-style: none;
+    text-align: left;
+    background: #fff;
+    z-index: 1;
+    top: 100%;
+    left: 5px;
+    font-size: 12px;
+
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+.mp_list .string {
+    font-weight: bold;
+}
+
+.mp_item,
+.mp_selectable,
+.mp_no_results,
+.mp_min_chars,
+.mp_error {
+    padding: 10px;
+}
+
+.mp_min_chars,
+.mp_no_results,
+.mp_error {
+    line-height: 1.2;
+}
+
+.mp_item.em,
+.mp_selectable.em,
+.mp_no_results.em {
+    font-style: normal;
+}
+
+.mp_highlighted {
+    color: #323232;
+
+    background: #fefab2;
+}
+
+.busy {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    width: 16px;
+    height: 16px;
+    background: url("/img/loader.gif") 0 0 no-repeat;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: opacity 0.3s ease, z-index 0 ease 0.3s;
+    transition: opacity 0.3s ease, z-index 0 ease 0.3s;
+}
+
+.mp_busy .busy {
+    opacity: 1;
+    z-index: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}

@@ -1,0 +1,6 @@
+.pseudo-link {
+    display: inline-block;
+    border-bottom: 1px dotted #7897bc;
+    cursor: pointer;
+    color: #7897bc;
+}

@@ -1,0 +1,8 @@
+<div ng-controller="notificationCtrl">
+    <ul>
+        <li ng-repeat="notification in notifications">
+        	{{notification}}
+        	<input type="button" value="read" ng-click="markRead(notification.Id)"/>
+        </li>
+    </ul>
+</div>

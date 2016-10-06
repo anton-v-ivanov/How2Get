@@ -1,0 +1,30 @@
+.mp_list {
+    position: absolute;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    background: #fff;
+    z-index: 1;
+    top: 30px;
+    left: 10px;
+
+    box-shadow(0 0 10px rgba(0,0,0,.3));
+}
+
+.mp_item,
+.mp_selectable,
+.mp_no_results {
+    padding: 8px;
+
+    & em {
+        font-style: normal;
+    }
+}
+
+.mp_highlighted {
+    color: #fff;
+
+    v-grd(#ffbf5f, #ffa228);
+}

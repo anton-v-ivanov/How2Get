@@ -1,0 +1,16 @@
+.data.ng-dirty.ng-invalid {
+    border: 1px solid #c30;
+}
+
+.error-message {
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c30;
+    background: #FF6B6B;
+}
+
+.route-form .data-time .ng-dirty.ng-invalid {
+    border: 1px solid #c30;
+}

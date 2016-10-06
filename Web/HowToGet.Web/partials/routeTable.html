@@ -1,0 +1,47 @@
+<table class="route-table">
+    <thead>
+        <tr>
+            <td class="origin">Origin</td>
+            <td class="destination">Destination</td>
+            <td class="type">Type</td>
+            <td class="carrier">Carrier</td>
+            <td class="time">Time</td>
+            <td class="cost">Cost</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="routePart in route.RouteParts">
+            <td class="origin">{{routePart.OriginCityInfo.Name}}</td>
+            <td class="destination">{{routePart.DestinationCityInfo.Name}}</td>
+            <td class="type"><span class="icon carrier type-{{routePart.CarrierType}}"></span></td>
+            <td class="carrier">
+                <div ng-switch on="routePart.CarrierUrl != null">
+                    <a ng-switch-when="true" href="{{routePart.CarrierUrl}}" target="_blank">{{routePart.CarrierName}}</a>
+                    <span ng-switch-default>{{routePart.CarrierName}}</span>
+                </div>
+
+                <div ng-switch on="routePart.CarrierIcon != null">
+                    <div ng-switch-when="true">
+                        <a ng-show="routePart.CarrierUrl" href="{{routePart.CarrierUrl}}" target="_blank">
+                            <img ng-show="routePart.CarrierIcon" ng-src="/img/carriers/{{routePart.CarrierIcon}}" style="width: 128px"/>
+                        </a>
+                        <img ng-hide="routePart.CarrierUrl" ng-src="/img/carriers/{{routePart.CarrierIcon}}" style="width: 128px"/>
+                    </div>
+                </div>
+
+            </td>
+            <td class="time">
+                <div ng-switch on="routePart.Time > 0">
+                    <span ng-switch-when="true">{{routePart.Time | minToTime}}</span>
+                    <span ng-switch-default>&mdash;</span>
+                </div>
+            </td>
+            <td class="cost">
+                <div ng-switch on="routePart.Cost > 0">
+                    <span ng-switch-when="true">{{routePart.Cost}} {{routePart.CostCurrencyCode}}</span>
+                    <span ng-switch-default>&mdash;</span>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

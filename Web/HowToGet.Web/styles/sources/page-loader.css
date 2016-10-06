@@ -1,0 +1,21 @@
+.page-loader {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 100%;
+    background: #fff url("/img/loader.gif") center center no-repeat;
+    opacity: 0;
+
+    -webkit-transition: opacity 1s ease 0s, right 0s ease 1s;
+    transition: opacity 1s ease 0s, right 0s ease 1s;
+}
+
+.page-loader.active {
+    right: 0;
+    opacity: 0.5;
+
+    -webkit-transition: opacity 1s ease 0s;
+    transition: opacity 1s ease 0s;
+}

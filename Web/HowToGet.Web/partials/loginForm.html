@@ -1,0 +1,25 @@
+<div ng-controller="LoginFormCtrl">
+    <div class="dropdown login-form">
+        <span class="dropdown-toggle pseudo-link">Sign In</span>
+
+        <div class="dropdown-content">
+            <form name="loginForm" ng-submit="loginForm.$invalid || login()" novalidate>
+                <div class="form-content">
+                    <div ng-show="error.visible" ng-bind="error.text" class="error-message"></div>
+
+                    <div class="field">
+                        <input type="email" placeholder="Email" class="data" ng-model="user.email" required />
+                    </div>
+
+                    <div class="field">
+                        <input type="password" placeholder="Password" class="data" ng-model="user.password" required />
+                    </div>
+                </div>
+
+                <div class="form-footer">
+                    <button type="submit" class="button accept">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+.top-data {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.top-data .top-routes-wrapper,
+.top-data .top-users-wrapper {
+    width: 310px;
+    float: left;
+}
+
+.top-data .top-users .name {
+    text-transform: capitalize;
+}
+
+.top-data h4 {
+    color: #9fca3c;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 12px 0;
+}
+
+.top-data ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-data li {
+    list-style: none;
+    margin-bottom: 10px;
+}

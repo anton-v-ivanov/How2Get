@@ -1,0 +1,30 @@
+$loader
+    .load([
+        '/js/libs/jquery-1.8.2.min.js?',
+        '/js/libs/underscore-min.js',
+        ])
+    .load([
+        '/js/libs/jquery.cookie.js',
+        '/js/libs/jquery.marcopolo.js',
+        ])
+    .load([
+        '/js/libs/backbone-min.js'
+        ])
+    .load([
+        '/js/models/models.js',
+        '/js/collections/collections.js',
+        '/js/views/sidebar.js',
+        '/js/views/auth.js',
+        '/js/views/search.js',
+        '/js/views/search-result.js',
+        '/js/views/add-route.js',
+        '/js/views/profile.js',
+        '/js/views/loader.js'
+        ])
+    .load([
+        '/js/app.js'
+        ])
+    .ready(function() {
+        app.router = new app.Router();
+        Backbone.history.start();
+    });

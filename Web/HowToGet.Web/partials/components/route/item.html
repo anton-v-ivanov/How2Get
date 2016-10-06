@@ -1,0 +1,37 @@
+<div class="b-route b-form">
+    <h2 class="b-route__title b-form__title">
+        <span ng-bind="route.RouteParts[0].OriginCityInfo.Name"></span>,
+        <span ng-bind="route.RouteParts[0].OriginCityInfo.Country"></span>
+        <span class="b-pointer" class="b-pointer"></span>
+        <span ng-bind="route.RouteParts[route.RouteParts.length - 1].DestinationCityInfo.Name"></span>,
+        <span ng-bind="route.RouteParts[route.RouteParts.length - 1].DestinationCityInfo.Country"></span>
+    </h2>
+    <ul class="b-route__parts">
+        <li class="b-route__part" ng-repeat="part in route.RouteParts" ng-switch on="$last">
+            <span class="b-route__part__name" ng-bind="part.OriginCityInfo.Name"></span>
+            <span class="b-route__part__name b-route__part__name_type_last" ng-bind="part.DestinationCityInfo.Name" ng-switch-when="true"></span>
+        </li>
+    </ul>
+    <table class="b-route-table">
+        <thead>
+            <tr>
+                <td class="b-route-table__name">Origin</td>
+                <td class="b-route-table__name">Destination</td>
+                <td class="b-route-table__type">Type</td>
+                <td class="b-route-table__carrier">Carrier</td>
+                <td class="b-route-table__time">Time</td>
+                <td class="b-route-table__cost">Cost</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="part in route.RouteParts">
+                <td ng-bind="part.OriginCityInfo.Name"></td>
+                <td ng-bind="part.DestinationCityInfo.Name"></td>
+                <td ng-bind="part.CarrierType"></td>
+                <td ng-bind="part.CarrierName"></td>
+                <td ng-bind="part.Time"></td>
+                <td ng-bind="part.Cost"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

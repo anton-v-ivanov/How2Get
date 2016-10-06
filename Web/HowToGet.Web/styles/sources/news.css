@@ -1,0 +1,42 @@
+.promo-wrapper {
+	position: relative;
+	width: 700px;
+	margin: 0 auto 60px auto;
+}
+
+.promo {
+	position: relative;
+	height: 80px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+	border-bottom: 1px solid #eee;
+}
+
+.promo:after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 50%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 50%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 50%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 50%,rgba(255,255,255,1) 100%);
+}
+
+.promo-wrapper .more {
+	background: rgba(0,0,0,.03);
+	padding: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: -30px;
+	right: 10px;
+	font-size: 11px;
+	cursor: pointer;
+}

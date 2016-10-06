@@ -1,0 +1,23 @@
+<div class="b-auth">
+    <form class="b-auth__main b-form" name="registerForm" ng-submit="registerForm.$invalid || registration(name, email, password)" novalidate>
+        <h2 class="b-form__title">Registration</h2>
+        <div class="b-from__field">
+            <input type="text" ng-model="name" ng-disabled="registrationFormBusy" placeholder="Name" class="b-from__data" required/>
+        </div>
+        <div class="b-from__field">
+            <input type="email" ng-model="email" ng-disabled="registrationFormBusy" placeholder="Email" class="b-from__data" required />
+        </div>
+        <div class="b-from__field">
+            <input type="password" ng-model="password" ng-disabled="registrationFormBusy" placeholder="Enter password or leave blank" class="b-from__data" />
+        </div>
+        <div class="b-form__error" ng-show="registrationFormError" ng-bind="registrationFormError"></div>
+        <div class="b-form__action">
+            <button type="submit" ng-disabled="registrationFormBusy" class="b-button b-button_type_accept">Sign up free!</button>
+        </div>
+    </form>
+    <div class="b-auth__ext b-form">
+        <h2 class="b-form__title">Or use your account</h2>
+        <div ext-auth ></div>
+        <span class="b-auth__link">Already have an account? <a href="#/login"><strong>Login</strong></a></span>
+    </div>
+</div>

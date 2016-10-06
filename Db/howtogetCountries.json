@@ -1,0 +1,248 @@
+{ "_id" : { "$oid" : "512e65c44649091074d0dd39" }, "n" : "Colombia", "cc" : "CO" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd43" }, "n" : "Brazil", "cc" : "BR" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd55" }, "n" : "Nigeria", "cc" : "NG" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd5b" }, "n" : "India", "cc" : "IN" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd64" }, "n" : "Italy", "cc" : "IT" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd75" }, "n" : "Israel", "cc" : "IL" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd7d" }, "n" : "France", "cc" : "FR" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd8b" }, "n" : "Bolivia", "cc" : "BO" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dd8f" }, "n" : "Japan", "cc" : "JP" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dda7" }, "n" : "Tanzania", "cc" : "TZ" }
+{ "_id" : { "$oid" : "512e65c54649091074d0ddab" }, "n" : "Czech Republic", "cc" : "CZ" }
+{ "_id" : { "$oid" : "512e65c54649091074d0ddb2" }, "n" : "Poland", "cc" : "PL" }
+{ "_id" : { "$oid" : "512e65c54649091074d0ddbe" }, "n" : "Indonesia", "cc" : "ID" }
+{ "_id" : { "$oid" : "512e65c54649091074d0ddd9" }, "n" : "South Africa", "cc" : "ZA" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dddb" }, "n" : "Norway", "cc" : "NO" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dde3" }, "n" : "Spain", "cc" : "ES" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de06" }, "n" : "Gabon", "cc" : "GA" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de0a" }, "n" : "Central African Republic", "cc" : "CF" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de0c" }, "n" : "United States", "cc" : "US" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de6f" }, "n" : "Dominican Republic", "cc" : "DO" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de76" }, "n" : "Peru", "cc" : "PE" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de7c" }, "n" : "Botswana", "cc" : "BW" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de80" }, "n" : "Mozambique", "cc" : "MZ" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de86" }, "n" : "Austria", "cc" : "AT" }
+{ "_id" : { "$oid" : "512e65c54649091074d0de8e" }, "n" : "Germany", "cc" : "DE" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dea1" }, "n" : "Russia", "cc" : "RU" }
+{ "_id" : { "$oid" : "512e65c54649091074d0ded2" }, "n" : "Ukraine", "cc" : "UA" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dee6" }, "n" : "Turkey", "cc" : "TR" }
+{ "_id" : { "$oid" : "512e65c54649091074d0def4" }, "n" : "Montenegro", "cc" : "ME" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df01" }, "n" : "United Kingdom", "cc" : "GB" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df16" }, "n" : "Romania", "cc" : "RO" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df24" }, "n" : "Philippines", "cc" : "PH" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df31" }, "n" : "Venezuela", "cc" : "VE" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df3f" }, "n" : "Slovenia", "cc" : "SI" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df4c" }, "n" : "Saint Martin", "cc" : "MF" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df4f" }, "n" : "Lithuania", "cc" : "LT" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df58" }, "n" : "Portugal", "cc" : "PT" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df69" }, "n" : "Mali", "cc" : "ML" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df6c" }, "n" : "Afghanistan", "cc" : "AF" }
+{ "_id" : { "$oid" : "512e65c54649091074d0df72" }, "n" : "Canada", "cc" : "CA" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dfc0" }, "n" : "Georgia", "cc" : "GE" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dfc2" }, "n" : "Madagascar", "cc" : "MG" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dfc6" }, "n" : "Zimbabwe", "cc" : "ZW" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dfca" }, "n" : "Cameroon", "cc" : "CM" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dfcc" }, "n" : "Australia", "cc" : "AU" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dfe5" }, "n" : "Greece", "cc" : "GR" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dff1" }, "n" : "Morocco", "cc" : "MA" }
+{ "_id" : { "$oid" : "512e65c54649091074d0dff9" }, "n" : "Egypt", "cc" : "EG" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e004" }, "n" : "Kenya", "cc" : "KE" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e011" }, "n" : "Sweden", "cc" : "SE" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e024" }, "n" : "Myanmar", "cc" : "MM" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e030" }, "n" : "Slovakia", "cc" : "SK" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e039" }, "n" : "Mexico", "cc" : "MX" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e04e" }, "n" : "Turkmenistan", "cc" : "TM" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e058" }, "n" : "Uganda", "cc" : "UG" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e05b" }, "n" : "Tunisia", "cc" : "TN" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e061" }, "n" : "Libya", "cc" : "LY" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e067" }, "n" : "South Korea", "cc" : "KR" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e06b" }, "n" : "Nicaragua", "cc" : "NI" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e073" }, "n" : "Lesotho", "cc" : "LS" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e075" }, "n" : "Iran", "cc" : "IR" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e090" }, "n" : "Democratic Republic of the Congo", "cc" : "CD" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e098" }, "n" : "Armenia", "cc" : "AM" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e0a3" }, "n" : "Chad", "cc" : "TD" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e0aa" }, "n" : "Eritrea", "cc" : "ER" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e0af" }, "n" : "Azerbaijan", "cc" : "AZ" }
+{ "_id" : { "$oid" : "512e65c54649091074d0e0b3" }, "n" : "New Zealand", "cc" : "NZ" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0bd" }, "n" : "Pakistan", "cc" : "PK" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0c6" }, "n" : "Belarus", "cc" : "BY" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0cd" }, "n" : "Syria", "cc" : "SY" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0d6" }, "n" : "Niger", "cc" : "NE" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0d9" }, "n" : "Cuba", "cc" : "CU" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0df" }, "n" : "Sri Lanka", "cc" : "LK" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0e6" }, "n" : "Wallis and Futuna", "cc" : "WF" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0eb" }, "n" : "Hungary", "cc" : "HU" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e0f1" }, "n" : "Bangladesh", "cc" : "BD" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e103" }, "n" : "French Guiana", "cc" : "GF" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e130" }, "n" : "Jamaica", "cc" : "JM" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e136" }, "n" : "Puerto Rico", "cc" : "PR" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e140" }, "n" : "Ethiopia", "cc" : "ET" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e14d" }, "n" : "Zambia", "cc" : "ZM" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e154" }, "n" : "Guatemala", "cc" : "GT" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e15b" }, "n" : "Algeria", "cc" : "DZ" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e160" }, "n" : "Swaziland", "cc" : "SZ" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e164" }, "n" : "Senegal", "cc" : "SN" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e16c" }, "n" : "Angola", "cc" : "AO" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e17d" }, "n" : "Malawi", "cc" : "MW" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e18a" }, "n" : "Belgium", "cc" : "BE" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1a9" }, "n" : "Netherlands", "cc" : "NL" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1c0" }, "n" : "China", "cc" : "CN" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1c8" }, "n" : "El Salvador", "cc" : "SV" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1cf" }, "n" : "Malaysia", "cc" : "MY" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1de" }, "n" : "Palau", "cc" : "PW" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1e4" }, "n" : "Chile", "cc" : "CL" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e1f1" }, "n" : "Uruguay", "cc" : "UY" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e20a" }, "n" : "Papua New Guinea", "cc" : "PG" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e211" }, "n" : "Argentina", "cc" : "AR" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e237" }, "n" : "Costa Rica", "cc" : "CR" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e24b" }, "n" : "Kazakhstan", "cc" : "KZ" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e288" }, "n" : "Switzerland", "cc" : "CH" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e2db" }, "n" : "Finland", "cc" : "FI" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e308" }, "n" : "Cape Verde", "cc" : "CV" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e32c" }, "n" : "Haiti", "cc" : "HT" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e361" }, "n" : "Kosovo", "cc" : "XK" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e393" }, "n" : "Guyana", "cc" : "GY" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e3b1" }, "n" : "Liberia", "cc" : "LR" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e3e6" }, "n" : "Burundi", "cc" : "BI" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e3ef" }, "n" : "Vietnam", "cc" : "VN" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e3f9" }, "n" : "Togo", "cc" : "TG" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e406" }, "n" : "Cyprus", "cc" : "CY" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e422" }, "n" : "Benin", "cc" : "BJ" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e436" }, "n" : "Honduras", "cc" : "HN" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e440" }, "n" : "United Arab Emirates", "cc" : "AE" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e44e" }, "n" : "Palestinian Territory", "cc" : "PS" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e450" }, "n" : "Iraq", "cc" : "IQ" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e454" }, "n" : "Saudi Arabia", "cc" : "SA" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e45b" }, "n" : "Jordan", "cc" : "JO" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e46a" }, "n" : "Oman", "cc" : "OM" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e47d" }, "n" : "Denmark", "cc" : "DK" }
+{ "_id" : { "$oid" : "512e65c64649091074d0e4a1" }, "n" : "Ivory Coast", "cc" : "CI" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e4c7" }, "n" : "Sudan", "cc" : "SD" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e4d3" }, "n" : "Ghana", "cc" : "GH" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e4fc" }, "n" : "Western Sahara", "cc" : "EH" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e501" }, "n" : "Kuwait", "cc" : "KW" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e511" }, "n" : "Pitcairn", "cc" : "PN" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e520" }, "n" : "Yemen", "cc" : "YE" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e53e" }, "n" : "Somalia", "cc" : "SO" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e573" }, "n" : "Panama", "cc" : "PA" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e5e6" }, "n" : "Iceland", "cc" : "IS" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e631" }, "n" : "Qatar", "cc" : "QA" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e64d" }, "n" : "Bahrain", "cc" : "BH" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e6e0" }, "n" : "Djibouti", "cc" : "DJ" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e71b" }, "n" : "Niue", "cc" : "NU" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e76f" }, "n" : "Ecuador", "cc" : "EC" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e79a" }, "n" : "Thailand", "cc" : "TH" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e7bd" }, "n" : "Ireland", "cc" : "IE" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e7ca" }, "n" : "North Korea", "cc" : "KP" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e7e7" }, "n" : "Uzbekistan", "cc" : "UZ" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e7f0" }, "n" : "Andorra", "cc" : "AD" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e804" }, "n" : "Aruba", "cc" : "AW" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e86f" }, "n" : "Serbia", "cc" : "RS" }
+{ "_id" : { "$oid" : "512e65c74649091074d0e878" }, "n" : "Samoa", "cc" : "WS" }
+{ "_id" : { "$oid" : "512e65c84649091074d0e903" }, "n" : "Trinidad and Tobago", "cc" : "TT" }
+{ "_id" : { "$oid" : "512e65c84649091074d0e97b" }, "n" : "Bulgaria", "cc" : "BG" }
+{ "_id" : { "$oid" : "512e65c84649091074d0e9bf" }, "n" : "Paraguay", "cc" : "PY" }
+{ "_id" : { "$oid" : "512e65c84649091074d0e9d7" }, "n" : "Kyrgyzstan", "cc" : "KG" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ea25" }, "n" : "Cook Islands", "cc" : "CK" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ea3f" }, "n" : "South Sudan", "cc" : "SS" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ea73" }, "n" : "Lebanon", "cc" : "LB" }
+{ "_id" : { "$oid" : "512e65c84649091074d0eae0" }, "n" : "Guinea-Bissau", "cc" : "GW" }
+{ "_id" : { "$oid" : "512e65c84649091074d0eaf9" }, "n" : "Nepal", "cc" : "NP" }
+{ "_id" : { "$oid" : "512e65c84649091074d0eb2f" }, "n" : "Guadeloupe", "cc" : "GP" }
+{ "_id" : { "$oid" : "512e65c84649091074d0eb4b" }, "n" : "Gambia", "cc" : "GM" }
+{ "_id" : { "$oid" : "512e65c84649091074d0eb92" }, "n" : "Moldova", "cc" : "MD" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ebb1" }, "n" : "Laos", "cc" : "LA" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ebd7" }, "n" : "Brunei", "cc" : "BN" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ebe9" }, "n" : "Burkina Faso", "cc" : "BF" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ec14" }, "n" : "Bosnia and Herzegovina", "cc" : "BA" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ec25" }, "n" : "Taiwan", "cc" : "TW" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ecc2" }, "n" : "Mongolia", "cc" : "MN" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ecde" }, "n" : "Saint Kitts and Nevis", "cc" : "KN" }
+{ "_id" : { "$oid" : "512e65c84649091074d0eced" }, "n" : "Equatorial Guinea", "cc" : "GQ" }
+{ "_id" : { "$oid" : "512e65c84649091074d0ecfa" }, "n" : "Cambodia", "cc" : "KH" }
+{ "_id" : { "$oid" : "512e65c94649091074d0edb1" }, "n" : "Mauritius", "cc" : "MU" }
+{ "_id" : { "$oid" : "512e65c94649091074d0edd1" }, "n" : "Belize", "cc" : "BZ" }
+{ "_id" : { "$oid" : "512e65c94649091074d0ee44" }, "n" : "Albania", "cc" : "AL" }
+{ "_id" : { "$oid" : "512e65c94649091074d0ef8b" }, "n" : "Malta", "cc" : "MT" }
+{ "_id" : { "$oid" : "512e65c94649091074d0efad" }, "n" : "Macedonia", "cc" : "MK" }
+{ "_id" : { "$oid" : "512e65c94649091074d0efb6" }, "n" : "Croatia", "cc" : "HR" }
+{ "_id" : { "$oid" : "512e65c94649091074d0efed" }, "n" : "Sierra Leone", "cc" : "SL" }
+{ "_id" : { "$oid" : "512e65c94649091074d0f034" }, "n" : "Guinea", "cc" : "GN" }
+{ "_id" : { "$oid" : "512e65c94649091074d0f093" }, "n" : "Tajikistan", "cc" : "TJ" }
+{ "_id" : { "$oid" : "512e65c94649091074d0f0ea" }, "n" : "Montserrat", "cc" : "MS" }
+{ "_id" : { "$oid" : "512e65c94649091074d0f114" }, "n" : "Republic of the Congo", "cc" : "CG" }
+{ "_id" : { "$oid" : "512e65c94649091074d0f13b" }, "n" : "Barbados", "cc" : "BB" }
+{ "_id" : { "$oid" : "512e65ca4649091074d0f259" }, "n" : "Rwanda", "cc" : "RW" }
+{ "_id" : { "$oid" : "512e65ca4649091074d0f434" }, "n" : "Saint Lucia", "cc" : "LC" }
+{ "_id" : { "$oid" : "512e65ca4649091074d0f4b2" }, "n" : "Latvia", "cc" : "LV" }
+{ "_id" : { "$oid" : "512e65cb4649091074d0f729" }, "n" : "Turks and Caicos Islands", "cc" : "TC" }
+{ "_id" : { "$oid" : "512e65cb4649091074d0f994" }, "n" : "Guam", "cc" : "GU" }
+{ "_id" : { "$oid" : "512e65cb4649091074d0fa76" }, "n" : "East Timor", "cc" : "TL" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0fb19" }, "n" : "Isle of Man", "cc" : "IM" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0fb61" }, "n" : "Martinique", "cc" : "MQ" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0fb63" }, "n" : "Luxembourg", "cc" : "LU" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0fb81" }, "n" : "New Caledonia", "cc" : "NC" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0fdbf" }, "n" : "French Polynesia", "cc" : "PF" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0fea7" }, "n" : "Christmas Island", "cc" : "CX" }
+{ "_id" : { "$oid" : "512e65cc4649091074d0ff31" }, "n" : "Bahamas", "cc" : "BS" }
+{ "_id" : { "$oid" : "512e65cd4649091074d0ff8a" }, "n" : "Tuvalu", "cc" : "TV" }
+{ "_id" : { "$oid" : "512e65cd4649091074d10094" }, "n" : "Cayman Islands", "cc" : "KY" }
+{ "_id" : { "$oid" : "512e65cd4649091074d100d2" }, "n" : "Gibraltar", "cc" : "GI" }
+{ "_id" : { "$oid" : "512e65cd4649091074d1012c" }, "n" : "Namibia", "cc" : "NA" }
+{ "_id" : { "$oid" : "512e65cd4649091074d10236" }, "n" : "South Georgia and the South Sandwich Islands", "cc" : "GS" }
+{ "_id" : { "$oid" : "512e65cd4649091074d102e3" }, "n" : "Saint Barthelemy", "cc" : "BL" }
+{ "_id" : { "$oid" : "512e65cd4649091074d1037f" }, "n" : "Bermuda", "cc" : "BM" }
+{ "_id" : { "$oid" : "512e65ce4649091074d10553" }, "n" : "Hong Kong", "cc" : "HK" }
+{ "_id" : { "$oid" : "512e65ce4649091074d1055e" }, "n" : "Solomon Islands", "cc" : "SB" }
+{ "_id" : { "$oid" : "512e65cf4649091074d10869" }, "n" : "Saint Helena", "cc" : "SH" }
+{ "_id" : { "$oid" : "512e65d04649091074d10ce7" }, "n" : "Norfolk Island", "cc" : "NF" }
+{ "_id" : { "$oid" : "512e65d04649091074d10ceb" }, "n" : "Saint Vincent and the Grenadines", "cc" : "VC" }
+{ "_id" : { "$oid" : "512e65d04649091074d10d97" }, "n" : "Estonia", "cc" : "EE" }
+{ "_id" : { "$oid" : "512e65d04649091074d10e6a" }, "n" : "Mayotte", "cc" : "YT" }
+{ "_id" : { "$oid" : "512e65d04649091074d10fe1" }, "n" : "Reunion", "cc" : "RE" }
+{ "_id" : { "$oid" : "512e65d14649091074d11094" }, "n" : "Fiji", "cc" : "FJ" }
+{ "_id" : { "$oid" : "512e65d14649091074d11198" }, "n" : "Suriname", "cc" : "SR" }
+{ "_id" : { "$oid" : "512e65d14649091074d11314" }, "n" : "Svalbard and Jan Mayen", "cc" : "SJ" }
+{ "_id" : { "$oid" : "512e65d14649091074d113f1" }, "n" : "Macau", "cc" : "MO" }
+{ "_id" : { "$oid" : "512e65d24649091074d1149e" }, "n" : "Marshall Islands", "cc" : "MH" }
+{ "_id" : { "$oid" : "512e65d24649091074d114d9" }, "n" : "Maldives", "cc" : "MV" }
+{ "_id" : { "$oid" : "512e65d24649091074d115e4" }, "n" : "Aland Islands", "cc" : "AX" }
+{ "_id" : { "$oid" : "512e65d24649091074d11629" }, "n" : "Monaco", "cc" : "MC" }
+{ "_id" : { "$oid" : "512e65d24649091074d116e3" }, "n" : "Comoros", "cc" : "KM" }
+{ "_id" : { "$oid" : "512e65d34649091074d11a4e" }, "n" : "Mauritania", "cc" : "MR" }
+{ "_id" : { "$oid" : "512e65d44649091074d11ab9" }, "n" : "Tonga", "cc" : "TO" }
+{ "_id" : { "$oid" : "512e65d44649091074d11ad0" }, "n" : "Greenland", "cc" : "GL" }
+{ "_id" : { "$oid" : "512e65d44649091074d11ce2" }, "n" : "American Samoa", "cc" : "AS" }
+{ "_id" : { "$oid" : "512e65d44649091074d11d23" }, "n" : "Micronesia", "cc" : "FM" }
+{ "_id" : { "$oid" : "512e65d54649091074d11f2b" }, "n" : "Sint Maarten", "cc" : "SX" }
+{ "_id" : { "$oid" : "512e65d54649091074d11f45" }, "n" : "Bhutan", "cc" : "BT" }
+{ "_id" : { "$oid" : "512e65d54649091074d120be" }, "n" : "French Southern Territories", "cc" : "TF" }
+{ "_id" : { "$oid" : "512e65d54649091074d120e4" }, "n" : "Vanuatu", "cc" : "VU" }
+{ "_id" : { "$oid" : "512e65d64649091074d12465" }, "n" : "British Virgin Islands", "cc" : "VG" }
+{ "_id" : { "$oid" : "512e65d64649091074d124c2" }, "n" : "Dominica", "cc" : "DM" }
+{ "_id" : { "$oid" : "512e65d64649091074d125bb" }, "n" : "Grenada", "cc" : "GD" }
+{ "_id" : { "$oid" : "512e65d64649091074d125be" }, "n" : "Jersey", "cc" : "JE" }
+{ "_id" : { "$oid" : "512e65d64649091074d125c1" }, "n" : "Antigua and Barbuda", "cc" : "AG" }
+{ "_id" : { "$oid" : "512e65d64649091074d125cd" }, "n" : "Guernsey", "cc" : "GG" }
+{ "_id" : { "$oid" : "512e65d64649091074d1261e" }, "n" : "Saint Pierre and Miquelon", "cc" : "PM" }
+{ "_id" : { "$oid" : "512e65d64649091074d12627" }, "n" : "Northern Mariana Islands", "cc" : "MP" }
+{ "_id" : { "$oid" : "512e65d64649091074d12761" }, "n" : "San Marino", "cc" : "SM" }
+{ "_id" : { "$oid" : "512e65d74649091074d128fb" }, "n" : "Sao Tome and Principe", "cc" : "ST" }
+{ "_id" : { "$oid" : "512e65d84649091074d12c17" }, "n" : "Singapore", "cc" : "SG" }
+{ "_id" : { "$oid" : "512e65d84649091074d12df1" }, "n" : "Falkland Islands", "cc" : "FK" }
+{ "_id" : { "$oid" : "512e65d94649091074d13063" }, "n" : "Kiribati", "cc" : "KI" }
+{ "_id" : { "$oid" : "512e65d94649091074d13187" }, "n" : "Anguilla", "cc" : "AI" }
+{ "_id" : { "$oid" : "512e65d94649091074d132a6" }, "n" : "Faroe Islands", "cc" : "FO" }
+{ "_id" : { "$oid" : "512e65da4649091074d134cc" }, "n" : "Liechtenstein", "cc" : "LI" }
+{ "_id" : { "$oid" : "512e65da4649091074d13540" }, "n" : "Vatican", "cc" : "VA" }
+{ "_id" : { "$oid" : "512e65da4649091074d135cb" }, "n" : "Seychelles", "cc" : "SC" }
+{ "_id" : { "$oid" : "512e65da4649091074d137fc" }, "n" : "Cocos Islands", "cc" : "CC" }
+{ "_id" : { "$oid" : "512e65db4649091074d13878" }, "n" : "Curacao", "cc" : "CW" }
+{ "_id" : { "$oid" : "512e65db4649091074d13ba3" }, "n" : "United States Virgin Islands", "cc" : "VI" }
+{ "_id" : { "$oid" : "512e679946490914bc6a0619" }, "n" : "Nauru", "cc" : "NR" }
+{ "_id" : { "$oid" : "5145f7304649091844b12879" }, "n" : "Netherlands Antilles", "cc" : "AN" }
+{ "_id" : { "$oid" : "5145f7bc4649091844b1287a" }, "n" : "Heard Island and McDonald Islands", "cc" : "HM" }
+{ "_id" : { "$oid" : "5145f90c4649091844b1287b" }, "n" : "Bouvet Island", "cc" : "BV" }
+{ "_id" : { "$oid" : "5145f97f4649091844b1287c" }, "n" : "Tokelau", "cc" : "TK" }
+{ "_id" : { "$oid" : "5145fbd94649091844b1287d" }, "n" : "United States Minor Outlying Islands", "cc" : "UM" }

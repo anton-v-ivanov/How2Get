@@ -1,0 +1,29 @@
+<div ng-controller="LoginFormCtrl">
+       
+    <form name="loginForm" ng-submit="loginForm.$invalid || login()" novalidate>
+        <div class="form-content">
+            <div ng-show="error.visible" ng-bind="error.text" class="error-message"></div>
+
+            <div class="field">
+                <input type="email" placeholder="Email" class="data" ng-model="user.email" required />
+            </div>
+
+            <div class="field">
+                <input type="password" placeholder="Password" class="data" ng-model="user.password" required />
+            </div>
+        </div>
+
+        <div class="form-footer">
+            <button type="submit" class="button accept">Login</button>
+            <a ng-href="#/register">Register</a>
+            <div ng-controller="ExtAuthFormCtrl">
+                <button ng-click="fbAuth()" class="fb-login" >Facebook</button>
+                <button ng-click="googleAuth()" class="google-login" >Google</button>
+                <button ng-click="vkAuth()" class="vk-login" >VKontakte</button>
+                <button ng-click="foursquareAuth()" class="4sq-login" >Foursquare</button>
+            </div>
+            
+        </div>
+    </form>
+   
+</div>

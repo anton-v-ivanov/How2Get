@@ -1,0 +1,17 @@
+<div ng-controller="ExtAuthFormCtrl">
+    <div class="dropdown ext-auth-form">
+        <span class="dropdown-toggle pseudo-link">Connect with...</span>
+
+        <div class="dropdown-content">
+
+            <form name="extAuthForm" novalidate>
+                <div class="form-content">
+                    <button ng-click="fbAuth()" class="fb-login" >Facebook</button>
+                    <button ng-click="googleAuth()" class="google-login" >Google</button>
+                    <button ng-click="vkAuth()" class="vk-login" >VKontakte</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

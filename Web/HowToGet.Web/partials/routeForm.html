@@ -1,0 +1,90 @@
+<div ng-controller="RouteFormCtrl">
+
+    <div ng-show="error.visible" ng-bind="error.text"></div>
+
+    <form class="route-form" name="routeForm" ng-submit="routeForm.$invalid || saveRoute()" novalidate>
+        <ul class="parts">
+            <li class="part clearfix" ng-repeat="routePart in route.RouteParts">
+                <div ng-controller="RouteFormPartCtrl">
+                    <div class="route clearfix">
+                        <div class="field origin">
+                            <input class="data" type="text" placeholder="Start city" ng-model="routePart.OriginCityInfo.Name" city-id="routePart.OriginCityId" country-id="routePart.OriginCityInfo.CountryId" city-lt="routePart.OriginCityInfo.Lt" city-lg="routePart.OriginCityInfo.Lg" city-auto-complete required />
+                            <input type="hidden" ng-model="routePart.OriginCityId" required />
+                            <span class="indicator"></span>
+                        </div>
+
+                        <div class="field destination">
+                            <input class="data" type="text" placeholder="Destination city" ng-model="routePart.DestinationCityInfo.Name" city-id="routePart.DestinationCityId" city-lt="routePart.DestinationCityInfo.Lt" city-lg="routePart.DestinationCityInfo.Lg" country-id="routePart.DestinationCityId.CountryId" city-auto-complete required />
+                            <input type="hidden" ng-model="routePart.DestinationCityId" required />
+                            <span class="indicator"></span>
+                        </div>
+                    </div>
+
+                    <div class="field carrier-type">
+                        <label ng-class="'carrier-icon-wrapper railway active' + routePart.CarrierType">
+                            <input class="data" ng-model="routePart.CarrierType" value="0" type="radio" />
+                            <span class="icon carrier type-0"></span>
+                            <span class="icon carrier type-0 active"></span>
+                        </label>
+
+                        <label ng-class="'carrier-icon-wrapper airway active' + routePart.CarrierType">
+                            <input class="data" ng-model="routePart.CarrierType" value="1" type="radio" />
+                            <span class="icon carrier type-1"></span>
+                            <span class="icon carrier type-1 active"></span>
+                        </label>
+
+                        <label ng-class="'carrier-icon-wrapper ferry active' + routePart.CarrierType">
+                            <input class="data" ng-model="routePart.CarrierType" value="2" type="radio" />
+                            <span class="icon carrier type-2"></span>
+                            <span class="icon carrier type-2 active"></span>
+                        </label>
+
+                        <label ng-class="'carrier-icon-wrapper bus active' + routePart.CarrierType">
+                            <input class="data" ng-model="routePart.CarrierType" value="3" type="radio" />
+                            <span class="icon carrier type-3"></span>
+                            <span class="icon carrier type-3 active"></span>
+                        </label>
+
+                        <label ng-class="'carrier-icon-wrapper car active' + routePart.CarrierType">
+                            <input class="data" ng-model="routePart.CarrierType" value="4" type="radio" />
+                            <span class="icon carrier type-4"></span>
+                            <span class="icon carrier type-4 active"></span>
+                        </label>
+
+                        <label ng-class="'carrier-icon-wrapper taxi active' + routePart.CarrierType">
+                            <input class="data" ng-model="routePart.CarrierType" value="5" type="radio" />
+                            <span class="icon carrier type-5"></span>
+                            <span class="icon carrier type-5 active"></span>
+                        </label>
+                    </div>
+
+                    <div class="field carrier-name">
+                        <input placeholder="Carrier name" ng-model="routePart.CarrierName" class="data" type="text" size="10" ng-disabled="!carrierTypeValid || !routePart.OriginCityId" carrier-auto-complete />
+                        <span class="indicator"></span>
+                    </div>
+
+                    <div class="field time">
+                        Time: <time model="routePart.Time" origin="routePart.OriginCityId" destination="routePart.DestinationCityId" type="carrierTypeValid"></time>
+                        <input type="hidden" model="routePart.Time" required />
+                    </div>
+
+                    <div class="field cost">
+                        <input type="text" size="2" ng-model="routePart.Cost" class="data" placeholder="Cost" ng-disabled="!routePart.OriginCityId" />
+                    </div>
+
+                    <div class="field cost-type">
+                        <select class="data" ng-model="routePart.CostCurrency" ng-disabled="!routePart.OriginCityId" ng-options="c.Id as c.CurrencyCode for c in routePart.Currencys" cost-type></select>
+                    </div>
+
+                    <div ng-click="deletePart($index)" ng-hide="route.RouteParts.length < 2" class="delete-part">&times;</div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="form-footer">
+            <button class="button accept" ng-click="addPart()">Add part</button>
+            <button class="button extra" type="submit">Save route</button>
+        </div>
+    </form>
+
+</div>

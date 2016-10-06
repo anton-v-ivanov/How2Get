@@ -1,0 +1,11 @@
+<div ng-show="client.authorized()">
+    <div class="add-route-page">
+        <h2 class="title">Add route:</h2>
+
+        <div ng-include="'partials/routeForm.html'"></div>
+    </div>
+</div>
+
+<div ng-hide="client.authorized()">
+    <p class="not-access">Please login or register to add your route.</p>
+</div>

@@ -1,0 +1,157 @@
+{ "_id" : 1, "CurrencyCode" : "AED", "CurrencyName" : "Dirham", "ci" : [ "512e65c64649091074d0e440" ] }
+{ "CurrencyCode" : "AFN", "CurrencyName" : "Afghani", "_id" : 2, "ci" : [ "512e65c54649091074d0df6c" ] }
+{ "CurrencyCode" : "ALL", "CurrencyName" : "Lek", "_id" : 3, "ci" : [ "512e65c94649091074d0ee44" ] }
+{ "CurrencyCode" : "AMD", "CurrencyName" : "Dram", "_id" : 4, "ci" : [ "512e65c54649091074d0e098" ] }
+{ "CurrencyCode" : "ANG", "CurrencyName" : "Guilder", "_id" : 5, "ci" : [ "512e65db4649091074d13878", "512e65d54649091074d11f2b", "5145f7304649091844b12879" ] }
+{ "CurrencyCode" : "AOA", "CurrencyName" : "Kwanza", "_id" : 6, "ci" : [ "512e65c64649091074d0e16c" ] }
+{ "CurrencyCode" : "ARS", "CurrencyName" : "Peso", "_id" : 7, "ci" : [ "512e65c64649091074d0e211" ] }
+{ "CurrencyCode" : "AUD", "CurrencyName" : "Dollar", "_id" : 8, "ci" : [ "512e65c54649091074d0dfcc", "512e65cc4649091074d0fea7", "512e65da4649091074d137fc", "5145f7bc4649091844b1287a", "512e65d94649091074d13063", "512e65cd4649091074d0ff8a", "512e65d04649091074d10ce7", "512e679946490914bc6a0619" ] }
+{ "CurrencyCode" : "AWG", "CurrencyName" : "Guilder", "_id" : 9, "ci" : [ "512e65c74649091074d0e804" ] }
+{ "CurrencyCode" : "AZN", "CurrencyName" : "Manat", "_id" : 10, "ci" : [ "512e65c54649091074d0e0af" ] }
+{ "CurrencyCode" : "BAM", "CurrencyName" : "Marka", "_id" : 11, "ci" : [ "512e65c84649091074d0ec14" ] }
+{ "CurrencyCode" : "BBD", "CurrencyName" : "Dollar", "_id" : 12, "ci" : [ "512e65c94649091074d0f13b" ] }
+{ "CurrencyCode" : "BDT", "CurrencyName" : "Taka", "_id" : 13, "ci" : [ "512e65c64649091074d0e0f1" ] }
+{ "CurrencyCode" : "BGN", "CurrencyName" : "Lev", "_id" : 14, "ci" : [ "512e65c84649091074d0e97b" ] }
+{ "CurrencyCode" : "BHD", "CurrencyName" : "Dinar", "_id" : 15, "ci" : [ "512e65c74649091074d0e64d" ] }
+{ "CurrencyCode" : "BIF", "CurrencyName" : "Franc", "_id" : 16, "ci" : [ "512e65c64649091074d0e3e6" ] }
+{ "CurrencyCode" : "BMD", "CurrencyName" : "Dollar", "_id" : 17, "ci" : [ "512e65cd4649091074d1037f" ] }
+{ "CurrencyCode" : "BND", "CurrencyName" : "Dollar", "_id" : 18, "ci" : [ "512e65c84649091074d0ebd7" ] }
+{ "CurrencyCode" : "BOB", "CurrencyName" : "Boliviano", "_id" : 19, "ci" : [ "512e65c54649091074d0dd8b" ] }
+{ "CurrencyCode" : "BRL", "CurrencyName" : "Real", "_id" : 20, "ci" : [ "512e65c54649091074d0dd43" ] }
+{ "CurrencyCode" : "BSD", "CurrencyName" : "Dollar", "_id" : 21, "ci" : [ "512e65cc4649091074d0ff31" ] }
+{ "CurrencyCode" : "BTN", "CurrencyName" : "Ngultrum", "_id" : 22, "ci" : [ "512e65d54649091074d11f45" ] }
+{ "CurrencyCode" : "BWP", "CurrencyName" : "Pula", "_id" : 23, "ci" : [ "512e65c54649091074d0de7c" ] }
+{ "CurrencyCode" : "BYR", "CurrencyName" : "Ruble", "_id" : 24, "ci" : [ "512e65c64649091074d0e0c6" ] }
+{ "CurrencyCode" : "BZD", "CurrencyName" : "Dollar", "_id" : 25, "ci" : [ "512e65c94649091074d0edd1" ] }
+{ "CurrencyCode" : "CAD", "CurrencyName" : "Dollar", "_id" : 26, "ci" : [ "512e65c54649091074d0df72" ] }
+{ "CurrencyCode" : "CDF", "CurrencyName" : "Franc", "_id" : 27, "ci" : [ "512e65c54649091074d0e090" ] }
+{ "CurrencyCode" : "CHF", "CurrencyName" : "Franc", "_id" : 28, "ci" : [ "512e65c64649091074d0e288", "512e65da4649091074d134cc" ] }
+{ "CurrencyCode" : "CLP", "CurrencyName" : "Peso", "_id" : 29, "ci" : [ "512e65c64649091074d0e1e4" ] }
+{ "CurrencyCode" : "CNY", "CurrencyName" : "Yuan Renminbi", "_id" : 30, "ci" : [ "512e65c64649091074d0e1c0" ] }
+{ "CurrencyCode" : "COP", "CurrencyName" : "Peso", "_id" : 31, "ci" : [ "512e65c44649091074d0dd39" ] }
+{ "CurrencyCode" : "CRC", "CurrencyName" : "Colon", "_id" : 32, "ci" : [ "512e65c64649091074d0e237" ] }
+{ "CurrencyCode" : "CUP", "CurrencyName" : "Peso", "_id" : 33, "ci" : [ "512e65c64649091074d0e0d9" ] }
+{ "CurrencyCode" : "CVE", "CurrencyName" : "Escudo", "_id" : 34, "ci" : [ "512e65c64649091074d0e308" ] }
+{ "CurrencyCode" : "CZK", "CurrencyName" : "Koruna", "_id" : 35, "ci" : [ "512e65c54649091074d0ddab" ] }
+{ "CurrencyCode" : "DJF", "CurrencyName" : "Franc", "_id" : 36, "ci" : [ "512e65c74649091074d0e6e0" ] }
+{ "CurrencyCode" : "DKK", "CurrencyName" : "Krone", "_id" : 37, "ci" : [ "512e65c64649091074d0e47d", "512e65d94649091074d132a6", "512e65d44649091074d11ad0" ] }
+{ "CurrencyCode" : "DOP", "CurrencyName" : "Peso", "_id" : 38, "ci" : [ "512e65c54649091074d0de6f" ] }
+{ "CurrencyCode" : "DZD", "CurrencyName" : "Dinar", "_id" : 39, "ci" : [ "512e65c64649091074d0e15b" ] }
+{ "CurrencyCode" : "EGP", "CurrencyName" : "Pound", "_id" : 40, "ci" : [ "512e65c54649091074d0dff9" ] }
+{ "CurrencyCode" : "ERN", "CurrencyName" : "Nakfa", "_id" : 41, "ci" : [ "512e65c54649091074d0e0aa" ] }
+{ "CurrencyCode" : "ETB", "CurrencyName" : "Birr", "_id" : 42, "ci" : [ "512e65c64649091074d0e140" ] }
+{ "CurrencyCode" : "EUR", "CurrencyName" : "Euro", "_id" : 43, "ci" : [ "512e65c64649091074d0e2db", "512e65c54649091074d0dde3", "512e65c54649091074d0dd7d", "512e65c54649091074d0de8e", "512e65c64649091074d0e406", "512e65cd4649091074d102e3", "512e65c64649091074d0e18a", "512e65d24649091074d115e4", "512e65c74649091074d0e7f0", "512e65c54649091074d0de86", "512e65c84649091074d0eb2f", "512e65c54649091074d0dfe5", "512e65d04649091074d10d97", "512e65c64649091074d0e103", "512e65c74649091074d0e7bd", "512e65c54649091074d0dd64", "512e65c64649091074d0e361", "512e65cc4649091074d0fb63", "512e65c54649091074d0def4", "512e65c54649091074d0df4c", "512e65d24649091074d11629", "512e65cc4649091074d0fb61", "512e65c94649091074d0ef8b", "512e65c64649091074d0e1a9", "512e65d64649091074d1261e", "512e65d04649091074d10fe1", "512e65d64649091074d12761", "512e65d54649091074d120be", "512e65c54649091074d0df58", "512e65c54649091074d0df3f", "512e65c54649091074d0e030", "512e65da4649091074d13540", "512e65d04649091074d10e6a" ] }
+{ "CurrencyCode" : "FJD", "CurrencyName" : "Dollar", "_id" : 44, "ci" : [ "512e65d14649091074d11094" ] }
+{ "CurrencyCode" : "FKP", "CurrencyName" : "Pound", "_id" : 45, "ci" : [ "512e65d84649091074d12df1" ] }
+{ "CurrencyCode" : "GBP", "CurrencyName" : "Pound", "_id" : 46, "ci" : [ "512e65cc4649091074d0fb19", "512e65d64649091074d125be", "512e65d64649091074d125cd", "512e65c54649091074d0df01", "512e65cd4649091074d10236" ] }
+{ "CurrencyCode" : "GEL", "CurrencyName" : "Lari", "_id" : 47, "ci" : [ "512e65c54649091074d0dfc0" ] }
+{ "CurrencyCode" : "GHS", "CurrencyName" : "Cedi", "_id" : 48, "ci" : [ "512e65c74649091074d0e4d3" ] }
+{ "CurrencyCode" : "GIP", "CurrencyName" : "Pound", "_id" : 49, "ci" : [ "512e65cd4649091074d100d2" ] }
+{ "CurrencyCode" : "GMD", "CurrencyName" : "Dalasi", "_id" : 50, "ci" : [ "512e65c84649091074d0eb4b" ] }
+{ "CurrencyCode" : "GNF", "CurrencyName" : "Franc", "_id" : 51, "ci" : [ "512e65c94649091074d0f034" ] }
+{ "CurrencyCode" : "GTQ", "CurrencyName" : "Quetzal", "_id" : 52, "ci" : [ "512e65c64649091074d0e154" ] }
+{ "CurrencyCode" : "GYD", "CurrencyName" : "Dollar", "_id" : 53, "ci" : [ "512e65c64649091074d0e393" ] }
+{ "CurrencyCode" : "HKD", "CurrencyName" : "Dollar", "_id" : 54, "ci" : [ "512e65ce4649091074d10553" ] }
+{ "CurrencyCode" : "HNL", "CurrencyName" : "Lempira", "_id" : 55, "ci" : [ "512e65c64649091074d0e436" ] }
+{ "CurrencyCode" : "HRK", "CurrencyName" : "Kuna", "_id" : 56, "ci" : [ "512e65c94649091074d0efb6" ] }
+{ "CurrencyCode" : "HTG", "CurrencyName" : "Gourde", "_id" : 57, "ci" : [ "512e65c64649091074d0e32c" ] }
+{ "CurrencyCode" : "HUF", "CurrencyName" : "Forint", "_id" : 58, "ci" : [ "512e65c64649091074d0e0eb" ] }
+{ "CurrencyCode" : "IDR", "CurrencyName" : "Rupiah", "_id" : 59, "ci" : [ "512e65c54649091074d0ddbe" ] }
+{ "CurrencyCode" : "ILS", "CurrencyName" : "Shekel", "_id" : 60, "ci" : [ "512e65c54649091074d0dd75", "512e65c64649091074d0e44e" ] }
+{ "CurrencyCode" : "INR", "CurrencyName" : "Rupee", "_id" : 61, "ci" : [ "512e65c54649091074d0dd5b" ] }
+{ "CurrencyCode" : "IQD", "CurrencyName" : "Dinar", "_id" : 62, "ci" : [ "512e65c64649091074d0e450" ] }
+{ "CurrencyCode" : "IRR", "CurrencyName" : "Rial", "_id" : 63, "ci" : [ "512e65c54649091074d0e075" ] }
+{ "CurrencyCode" : "ISK", "CurrencyName" : "Krona", "_id" : 64, "ci" : [ "512e65c74649091074d0e5e6" ] }
+{ "CurrencyCode" : "JMD", "CurrencyName" : "Dollar", "_id" : 65, "ci" : [ "512e65c64649091074d0e130" ] }
+{ "CurrencyCode" : "JOD", "CurrencyName" : "Dinar", "_id" : 66, "ci" : [ "512e65c64649091074d0e45b" ] }
+{ "CurrencyCode" : "JPY", "CurrencyName" : "Yen", "_id" : 67, "ci" : [ "512e65c54649091074d0dd8f" ] }
+{ "CurrencyCode" : "KES", "CurrencyName" : "Shilling", "_id" : 68, "ci" : [ "512e65c54649091074d0e004" ] }
+{ "CurrencyCode" : "KGS", "CurrencyName" : "Som", "_id" : 69, "ci" : [ "512e65c84649091074d0e9d7" ] }
+{ "CurrencyCode" : "KHR", "CurrencyName" : "Riels", "_id" : 70, "ci" : [ "512e65c84649091074d0ecfa" ] }
+{ "CurrencyCode" : "KMF", "CurrencyName" : "Franc", "_id" : 71, "ci" : [ "512e65d24649091074d116e3" ] }
+{ "CurrencyCode" : "KPW", "CurrencyName" : "Won", "_id" : 72, "ci" : [ "512e65c74649091074d0e7ca" ] }
+{ "CurrencyCode" : "KRW", "CurrencyName" : "Won", "_id" : 73, "ci" : [ "512e65c54649091074d0e067" ] }
+{ "CurrencyCode" : "KWD", "CurrencyName" : "Dinar", "_id" : 74, "ci" : [ "512e65c74649091074d0e501" ] }
+{ "CurrencyCode" : "KYD", "CurrencyName" : "Dollar", "_id" : 75, "ci" : [ "512e65cd4649091074d10094" ] }
+{ "CurrencyCode" : "KZT", "CurrencyName" : "Tenge", "_id" : 76, "ci" : [ "512e65c64649091074d0e24b" ] }
+{ "CurrencyCode" : "LAK", "CurrencyName" : "Kip", "_id" : 77, "ci" : [ "512e65c84649091074d0ebb1" ] }
+{ "CurrencyCode" : "LBP", "CurrencyName" : "Pound", "_id" : 78, "ci" : [ "512e65c84649091074d0ea73" ] }
+{ "CurrencyCode" : "LKR", "CurrencyName" : "Rupee", "_id" : 79, "ci" : [ "512e65c64649091074d0e0df" ] }
+{ "CurrencyCode" : "LRD", "CurrencyName" : "Dollar", "_id" : 80, "ci" : [ "512e65c64649091074d0e3b1" ] }
+{ "CurrencyCode" : "LSL", "CurrencyName" : "Loti", "_id" : 81, "ci" : [ "512e65c54649091074d0e073" ] }
+{ "CurrencyCode" : "LTL", "CurrencyName" : "Litas", "_id" : 82, "ci" : [ "512e65c54649091074d0df4f" ] }
+{ "CurrencyCode" : "LVL", "CurrencyName" : "Lat", "_id" : 83, "ci" : [ "512e65ca4649091074d0f4b2" ] }
+{ "CurrencyCode" : "LYD", "CurrencyName" : "Dinar", "_id" : 84, "ci" : [ "512e65c54649091074d0e061" ] }
+{ "CurrencyCode" : "MAD", "CurrencyName" : "Dirham", "_id" : 85, "ci" : [ "512e65c54649091074d0dff1", "512e65c74649091074d0e4fc" ] }
+{ "CurrencyCode" : "MDL", "CurrencyName" : "Leu", "_id" : 86, "ci" : [ "512e65c84649091074d0eb92" ] }
+{ "CurrencyCode" : "MGA", "CurrencyName" : "Ariary", "_id" : 87, "ci" : [ "512e65c54649091074d0dfc2" ] }
+{ "CurrencyCode" : "MKD", "CurrencyName" : "Denar", "_id" : 88, "ci" : [ "512e65c94649091074d0efad" ] }
+{ "CurrencyCode" : "MMK", "CurrencyName" : "Kyat", "_id" : 89, "ci" : [ "512e65c54649091074d0e024" ] }
+{ "CurrencyCode" : "MNT", "CurrencyName" : "Tugrik", "_id" : 90, "ci" : [ "512e65c84649091074d0ecc2" ] }
+{ "CurrencyCode" : "MOP", "CurrencyName" : "Pataca", "_id" : 91, "ci" : [ "512e65d14649091074d113f1" ] }
+{ "CurrencyCode" : "MRO", "CurrencyName" : "Ouguiya", "_id" : 92, "ci" : [ "512e65d34649091074d11a4e" ] }
+{ "CurrencyCode" : "MUR", "CurrencyName" : "Rupee", "_id" : 93, "ci" : [ "512e65c94649091074d0edb1" ] }
+{ "CurrencyCode" : "MVR", "CurrencyName" : "Rufiyaa", "_id" : 94, "ci" : [ "512e65d24649091074d114d9" ] }
+{ "CurrencyCode" : "MWK", "CurrencyName" : "Kwacha", "_id" : 95, "ci" : [ "512e65c64649091074d0e17d" ] }
+{ "CurrencyCode" : "MXN", "CurrencyName" : "Peso", "_id" : 96, "ci" : [ "512e65c54649091074d0e039" ] }
+{ "CurrencyCode" : "MYR", "CurrencyName" : "Ringgit", "_id" : 97, "ci" : [ "512e65c64649091074d0e1cf" ] }
+{ "CurrencyCode" : "MZN", "CurrencyName" : "Metical", "_id" : 98, "ci" : [ "512e65c54649091074d0de80" ] }
+{ "CurrencyCode" : "NAD", "CurrencyName" : "Dollar", "_id" : 99, "ci" : [ "512e65cd4649091074d1012c" ] }
+{ "CurrencyCode" : "NGN", "CurrencyName" : "Naira", "_id" : 100, "ci" : [ "512e65c54649091074d0dd55" ] }
+{ "CurrencyCode" : "NIO", "CurrencyName" : "Cordoba", "_id" : 101, "ci" : [ "512e65c54649091074d0e06b" ] }
+{ "CurrencyCode" : "NOK", "CurrencyName" : "Krone", "_id" : 102, "ci" : [ "512e65c54649091074d0dddb", "512e65d14649091074d11314", "5145f90c4649091844b1287b" ] }
+{ "CurrencyCode" : "NPR", "CurrencyName" : "Rupee", "_id" : 103, "ci" : [ "512e65c84649091074d0eaf9" ] }
+{ "CurrencyCode" : "NZD", "CurrencyName" : "Dollar", "_id" : 104, "ci" : [ "512e65c74649091074d0e511", "512e65c74649091074d0e71b", "512e65c54649091074d0e0b3", "5145f97f4649091844b1287c", "512e65c84649091074d0ea25" ] }
+{ "CurrencyCode" : "OMR", "CurrencyName" : "Rial", "_id" : 105, "ci" : [ "512e65c64649091074d0e46a" ] }
+{ "CurrencyCode" : "PAB", "CurrencyName" : "Balboa", "_id" : 106, "ci" : [ "512e65c74649091074d0e573" ] }
+{ "CurrencyCode" : "PEN", "CurrencyName" : "Sol", "_id" : 107, "ci" : [ "512e65c54649091074d0de76" ] }
+{ "CurrencyCode" : "PGK", "CurrencyName" : "Kina", "_id" : 108, "ci" : [ "512e65c64649091074d0e20a" ] }
+{ "CurrencyCode" : "PHP", "CurrencyName" : "Peso", "_id" : 109, "ci" : [ "512e65c54649091074d0df24" ] }
+{ "CurrencyCode" : "PKR", "CurrencyName" : "Rupee", "_id" : 110, "ci" : [ "512e65c64649091074d0e0bd" ] }
+{ "CurrencyCode" : "PLN", "CurrencyName" : "Zloty", "_id" : 111, "ci" : [ "512e65c54649091074d0ddb2" ] }
+{ "CurrencyCode" : "PYG", "CurrencyName" : "Guarani", "_id" : 112, "ci" : [ "512e65c84649091074d0e9bf" ] }
+{ "CurrencyCode" : "QAR", "CurrencyName" : "Rial", "_id" : 113, "ci" : [ "512e65c74649091074d0e631" ] }
+{ "CurrencyCode" : "RON", "CurrencyName" : "Leu", "_id" : 114, "ci" : [ "512e65c54649091074d0df16" ] }
+{ "CurrencyCode" : "RSD", "CurrencyName" : "Dinar", "_id" : 115, "ci" : [ "512e65c74649091074d0e86f" ] }
+{ "CurrencyCode" : "RUB", "CurrencyName" : "Ruble", "_id" : 116, "ci" : [ "512e65c54649091074d0dea1" ] }
+{ "CurrencyCode" : "RWF", "CurrencyName" : "Franc", "_id" : 117, "ci" : [ "512e65ca4649091074d0f259" ] }
+{ "CurrencyCode" : "SAR", "CurrencyName" : "Rial", "_id" : 118, "ci" : [ "512e65c64649091074d0e454" ] }
+{ "CurrencyCode" : "SBD", "CurrencyName" : "Dollar", "_id" : 119, "ci" : [ "512e65ce4649091074d1055e" ] }
+{ "CurrencyCode" : "SCR", "CurrencyName" : "Rupee", "_id" : 120, "ci" : [ "512e65da4649091074d135cb" ] }
+{ "CurrencyCode" : "SDG", "CurrencyName" : "Pound", "_id" : 121, "ci" : [ "512e65c74649091074d0e4c7" ] }
+{ "CurrencyCode" : "SEK", "CurrencyName" : "Krona", "_id" : 122, "ci" : [ "512e65c54649091074d0e011" ] }
+{ "CurrencyCode" : "SGD", "CurrencyName" : "Dollar", "_id" : 123, "ci" : [ "512e65d84649091074d12c17" ] }
+{ "CurrencyCode" : "SHP", "CurrencyName" : "Pound", "_id" : 124, "ci" : [ "512e65cf4649091074d10869" ] }
+{ "CurrencyCode" : "SLL", "CurrencyName" : "Leone", "_id" : 125, "ci" : [ "512e65c94649091074d0efed" ] }
+{ "CurrencyCode" : "SOS", "CurrencyName" : "Shilling", "_id" : 126, "ci" : [ "512e65c74649091074d0e53e" ] }
+{ "CurrencyCode" : "SRD", "CurrencyName" : "Dollar", "_id" : 127, "ci" : [ "512e65d14649091074d11198" ] }
+{ "CurrencyCode" : "SSP", "CurrencyName" : "Pound", "_id" : 128, "ci" : [ "512e65c84649091074d0ea3f" ] }
+{ "CurrencyCode" : "STD", "CurrencyName" : "Dobra", "_id" : 129, "ci" : [ "512e65d74649091074d128fb" ] }
+{ "CurrencyCode" : "SYP", "CurrencyName" : "Pound", "_id" : 130, "ci" : [ "512e65c64649091074d0e0cd" ] }
+{ "CurrencyCode" : "SZL", "CurrencyName" : "Lilangeni", "_id" : 131, "ci" : [ "512e65c64649091074d0e160" ] }
+{ "CurrencyCode" : "THB", "CurrencyName" : "Baht", "_id" : 132, "ci" : [ "512e65c74649091074d0e79a" ] }
+{ "CurrencyCode" : "TJS", "CurrencyName" : "Somoni", "_id" : 133, "ci" : [ "512e65c94649091074d0f093" ] }
+{ "CurrencyCode" : "TMT", "CurrencyName" : "Manat", "_id" : 134, "ci" : [ "512e65c54649091074d0e04e" ] }
+{ "CurrencyCode" : "TND", "CurrencyName" : "Dinar", "_id" : 135, "ci" : [ "512e65c54649091074d0e05b" ] }
+{ "CurrencyCode" : "TOP", "CurrencyName" : "Pa'anga", "_id" : 136, "ci" : [ "512e65d44649091074d11ab9" ] }
+{ "CurrencyCode" : "TRY", "CurrencyName" : "Lira", "_id" : 137, "ci" : [ "512e65c54649091074d0dee6" ] }
+{ "CurrencyCode" : "TTD", "CurrencyName" : "Dollar", "_id" : 138, "ci" : [ "512e65c84649091074d0e903" ] }
+{ "CurrencyCode" : "TWD", "CurrencyName" : "Dollar", "_id" : 139, "ci" : [ "512e65c84649091074d0ec25" ] }
+{ "CurrencyCode" : "TZS", "CurrencyName" : "Shilling", "_id" : 140, "ci" : [ "512e65c54649091074d0dda7" ] }
+{ "CurrencyCode" : "UAH", "CurrencyName" : "Hryvnia", "_id" : 141, "ci" : [ "512e65c54649091074d0ded2" ] }
+{ "CurrencyCode" : "UGX", "CurrencyName" : "Shilling", "_id" : 142, "ci" : [ "512e65c54649091074d0e058" ] }
+{ "CurrencyCode" : "USD", "CurrencyName" : "Dollar ", "_id" : 143, "ci" : [ "5145fbd94649091844b1287d", "512e65c54649091074d0de0c", "512e65d64649091074d12465", "512e65db4649091074d13ba3", "512e65cb4649091074d0fa76", "512e65cb4649091074d0f729", "512e65c64649091074d0e1c8", "512e65c64649091074d0e1de", "512e65c64649091074d0e136", "512e65c74649091074d0e76f", "512e65d44649091074d11d23", "512e65d44649091074d11ce2", "512e65d64649091074d12627", "512e65d24649091074d1149e", "512e65cb4649091074d0f994" ] }
+{ "CurrencyCode" : "UYU", "CurrencyName" : "Peso", "_id" : 144, "ci" : [ "512e65c64649091074d0e1f1" ] }
+{ "CurrencyCode" : "UZS", "CurrencyName" : "Som", "_id" : 145, "ci" : [ "512e65c74649091074d0e7e7" ] }
+{ "CurrencyCode" : "VEF", "CurrencyName" : "Bolivar", "_id" : 146, "ci" : [ "512e65c54649091074d0df31" ] }
+{ "CurrencyCode" : "VND", "CurrencyName" : "Dong", "_id" : 147, "ci" : [ "512e65c64649091074d0e3ef" ] }
+{ "CurrencyCode" : "VUV", "CurrencyName" : "Vatu", "_id" : 148, "ci" : [ "512e65d54649091074d120e4" ] }
+{ "CurrencyCode" : "WST", "CurrencyName" : "Tala", "_id" : 149, "ci" : [ "512e65c74649091074d0e878" ] }
+{ "CurrencyCode" : "XAF", "CurrencyName" : "Franc", "_id" : 150, "ci" : [ "512e65c54649091074d0e0a3", "512e65c84649091074d0eced", "512e65c54649091074d0de06", "512e65c54649091074d0de0a", "512e65c94649091074d0f114", "512e65c54649091074d0dfca" ] }
+{ "CurrencyCode" : "XCD", "CurrencyName" : "Dollar", "_id" : 151, "ci" : [ "512e65d64649091074d124c2", "512e65d64649091074d125c1", "512e65d94649091074d13187", "512e65d64649091074d125bb", "512e65c84649091074d0ecde", "512e65ca4649091074d0f434", "512e65c94649091074d0f0ea", "512e65d04649091074d10ceb" ] }
+{ "CurrencyCode" : "XOF", "CurrencyName" : "Franc", "_id" : 152, "ci" : [ "512e65c64649091074d0e3f9", "512e65c64649091074d0e164", "512e65c64649091074d0e0d6", "512e65c54649091074d0df69", "512e65c84649091074d0eae0", "512e65c84649091074d0ebe9", "512e65c64649091074d0e422", "512e65c64649091074d0e4a1" ] }
+{ "CurrencyCode" : "XPF", "CurrencyName" : "Franc", "_id" : 153, "ci" : [ "512e65cc4649091074d0fdbf", "512e65cc4649091074d0fb81", "512e65c64649091074d0e0e6" ] }
+{ "CurrencyCode" : "YER", "CurrencyName" : "Rial", "_id" : 154, "ci" : [ "512e65c74649091074d0e520" ] }
+{ "CurrencyCode" : "ZAR", "CurrencyName" : "Rand", "_id" : 155, "ci" : [ "512e65c54649091074d0ddd9" ] }
+{ "CurrencyCode" : "ZMK", "CurrencyName" : "Kwacha", "_id" : 156, "ci" : [ "512e65c64649091074d0e14d" ] }
+{ "CurrencyCode" : "ZWL", "CurrencyName" : "Dollar", "_id" : 157, "ci" : [ "512e65c54649091074d0dfc6" ] }

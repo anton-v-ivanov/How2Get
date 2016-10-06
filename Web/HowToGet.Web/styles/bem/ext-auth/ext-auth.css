@@ -1,0 +1,10 @@
+.b-ext-auth__services {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.b-ext-auth__service {
+    display: inline-block;
+    margin-right: 10px;
+}

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How To Get - Share your travel experience. Find something new</title>
+    <meta name="description" content="How To Get - social platform, where you can share your travel experience and find new routes for your next trip. Simple, fast and free.">
+    <meta name="keywords" content="trip, travel, route planning, trip planning, travel planning, social route planner, how to get from, how to get to">
+    <meta name="author" content="how2get.to">
+    <meta name="robots" content="index, follow">
+    <meta content="http://how2get.to/img/bg.jpg" property="og:image">
+    <link rel="stylesheet" href="main.css">
+    <!--[if gte IE 9]>
+        <style type="text/css">
+            .submit {
+                filter: none;
+            }
+        </style>
+    <![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+        $.fn.teletype = function(opts, callback){
+            var $this = this,
+                defaults = {
+                    animDelay: 50
+                },
+                settings = $.extend(defaults, opts);
+
+            $.each(settings.text.split(''), function(i, letter){
+                setTimeout(function(){
+                    $this.html($this.html() + letter);
+                }, settings.animDelay * i);
+
+            });
+
+            setTimeout(function(){
+                callback();
+            }, settings.animDelay * settings.text.length + 1000);
+        };
+    </script>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?95"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 3544848, onlyWidgets: true});
+    </script>
+</head>
+
+<body>
+    <div class="bg">
+        <img src="/img/bg.jpg" alt="" />
+    </div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=324773667633702";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <div class="processing"></div>
+
+    <div class="page">
+
+        <div class="wrapper">
+            <div class="logo">how2get.to</div>
+            <h1 class="slogan">Share your travel experience<br>Find something new</h1>
+            <form class="subscribe-form">
+                <div class="fields">
+                    <div class="field">
+                        <input type="email" placeholder="Enter your email" class="data" autofocus>
+                        <button class="button submit">Subscribe</button>
+                    </div>
+                </div>
+                <div class="like-wrapper">
+                    <div class="vk-like-wrapper">
+                        <div id="vk_like"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Like("vk_like", {type: "button", height: 20});
+                        </script>
+                    </div>
+
+                    <div class="fb-like-wrapper">
+                        <div class="fb-like" data-href="http://how2get.to" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+                    </div>
+
+                    <div class="google-like-wrapper">
+                        <div class="g-plusone" data-size="medium"></div>
+                    </div>
+
+                    <div class="twitter-like-wrapper">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="how2getto" data-related="how2getto" data-hashtags="how2get">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </div>
+                </div>
+                <div class="success">
+                    <p class="title">Thank you for signing&nbsp;up!</p>
+                    <p class="text">If you wish to sign up to private beta&nbsp;&mdash;&nbsp;just let us know!<br>
+                    Use the "Feedback and Support" section on the left.</p>
+                    <p class="text">You can really help&nbsp;us out by&nbsp;telling about&nbsp;us to&nbsp;your friends.<br>More travelers&nbsp;&mdash;&nbsp;more cool routes!</p>
+                    <p class="note">See you soon!</p>
+                </div>
+                <div class="error">
+                    <div class="any">
+                        <p class="title">Ooops something went wrong =(</p><p class="text">Most likely we&rsquo;re already know about&nbsp;it, and all our team is&nbsp;working hard to&nbsp;fix&nbsp;it. Without sleep. Without food.<br>Please try again a&nbsp;little bit later&nbsp;ok?</p>
+                    </div>
+                    <div class="duplication-email">
+                        <p class="text"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="slider">
+            <div class="step-1">
+                <div class="piture">
+                    <div class="title">Decided to go on a trip?<br>Okay let's google the route...</div>
+                </div>
+            </div>
+            <div class="step-2">
+                <div class="google">
+                    <div class="editable-text"></div>
+                </div>
+            </div>
+            <div class="step-4">
+                <div class="solution">
+                    <div class="title big">We have a better idea.</div>
+                    <div class="title">Subscribe to stay tuned.</div>
+                </div>
+            </div>
+            <div class="toggle">
+                <div class="picture"></div>
+                <div class="title">Want to know more?</div>
+                <div class="play"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="step-3">
+        <div class="trash"></div>
+    </div>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35974641-1']);
+        _gaq.push(['_setDomainName', 'how2get.to']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <div name="user-voice">
+        <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/WnMzmICTxRQlPk4MhpOi4g.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+        <script>
+            UserVoice = window.UserVoice || [];
+            UserVoice.push(['showTab', 'classic_widget', {
+            mode: 'full',
+            primary_color: '#cc6d00',
+            link_color: '#007dbf',
+            default_mode: 'feedback',
+            forum_id: 201130,
+            tab_label: 'Feedback & Support',
+            tab_color: '#cc6d00',
+            tab_position: 'middle-left',
+            tab_inverted: false
+            }]);
+        </script>
+    </div>
+    <script src="main.js"></script>
+
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.field {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.field .data {
+    width: 100%;
+    margin: 0;
+    padding: 6px;
+    border: 1px solid #ccc;
+    color: #333;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+
+    border-radius: 4px;
+}
+
+.field select.data {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.field .indicator {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: url("/img/loader.gif") 0 0 no-repeat;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.field.mp_busy .indicator {
+    opacity: 1;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}

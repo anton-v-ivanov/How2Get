@@ -1,0 +1,29 @@
+<div class="header" ng-controller="HeaderCtrl">
+
+    <!--ul ng-show="!client.authorized()" class="menu">
+        <li>
+            <div ng-include="'partials/extAuthForm.html'"></div>
+        </li>
+
+        <li>
+            <div ng-include="'partials/registerForm.html'"></div>
+        </li>
+
+        <li>
+            <div ng-include="'partials/loginForm.html'"></div>
+        </li>
+    </ul-->
+
+    <ul ng-show="client.authorized()" class="menu">
+        <li ng-controller="LogoutCtrl">
+            <div ng-show="error.visible" ng-bind="error.text"></div>
+            <a href="#/login" title="Logout" ng-click="logout()">Logout</a>
+        </li>
+        <li>
+            <a href="#/profile" title="Your profile">Hi, {{client.userName}}!</a>
+        </li>
+        <li>
+            <a href="#/profile" title="Your profile"><img ng-src="{{client.picture}}" alt="userpic" width="16" height="16"/></a>
+        </li>    
+    </ul>
+</div>

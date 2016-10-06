@@ -1,0 +1,149 @@
+.profile-page .routes-wrapper {
+    float: left;
+    width: 318px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow-y: scroll;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+.profile-page .routes {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-page .delete {
+    color: #7897bc;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.profile-page .route {
+    list-style: none;
+    border-top: 1px dotted #ccc;
+    margin-top: 5px;
+}
+
+.profile-page .route:first-child {
+    border: none;
+    margin-top: 0;
+}
+
+.profile-page .route:first-child .route-inner {
+    margin-top: 0;
+}
+
+.profile-page .time {
+    margin: 5px 0 0;
+    font-size: 11px;
+}
+
+.profile-page .route-inner {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-page .route.open .route-inner {
+    background: #ffc;
+}
+
+.profile-page .path {
+    margin: 0;
+}
+
+.profile-page .city {
+    display: inline-block;
+    line-height: 1.5;
+    color: #ff900a;
+}
+
+.profile-page .extra {
+    position: relative;
+    font-size: 11px;
+}
+
+.profile-page .extra li {
+    line-height: 15px;
+}
+
+.profile-page .map-wrapper {
+    float: right;
+    height: 520px;
+    margin: 0;
+    padding: 0;
+    border-color: #aaa;
+    border-radius: 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+.profile-page .routes-count {
+    clear: both;
+    margin: 10px 0 0 10px;
+}
+
+.profile-page .user-info {
+    float: left;
+}
+
+.profile-page .user-info .user-pic {
+    position: relative;
+    float: left;
+}
+
+.profile-page .user-info .user-pic img,
+.profile-page .user-info .user-pic .shadow {
+    display: block;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.3);
+}
+
+.profile-page .user-info .user-pic .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.profile-page .user-info .user-data {
+    padding: 7px 0 0;
+    margin: 0;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.profile-page .user-info .user-data li {
+    margin-bottom: 5px;
+}
+
+.profile-page .user-info .user-data li.name {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.user-info-wrapper {
+    margin-bottom: 30px;
+}
+
+.user-bages {
+    width: 476px;
+    height: 74px;
+    background: url("/img/bages.png") 0 0 no-repeat;
+    float: left;
+    margin-left: 100px;
+}
+
+.user-bages .title {
+    text-align: center;
+    line-height: 74px;
+    font-size: 14px;
+    color: #999;
+    text-shadow: 0 1px 0 #FFF;
+}

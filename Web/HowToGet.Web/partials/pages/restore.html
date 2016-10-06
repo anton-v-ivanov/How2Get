@@ -1,0 +1,25 @@
+<div class="b-auth">
+    <form class="b-auth__main b-form" name="restoreForm" ng-submit="restoreForm.$invalid || restore(email)" novalidate>
+        <div ng-show="state === 'default'">
+            <h2 class="b-form__title">Forgot your password?</h2>
+            <p class="b-form__description">Submit your email address and we’ll send you a link to reset your password.</p>
+            <div class="b-from__field">
+                <input type="email" ng-model="email" placeholder="Email" class="b-from__data" ng-disabled="busy" required />
+            </div>
+            <div class="b-form__error" ng-show="errorMessage" ng-bind="errorMessage"></div>
+            <div class="b-form__action">
+                <button type="submit" class="b-button b-button_type_accept" ng-disabled="busy">Submit</button>
+            </div>
+            <a class="b-auth__link b-auth__link_dir_right" href="#/login">Login</a>
+        </div>
+        <div ng-show="state === 'success'">
+            <h2 class="b-form__title">Help is on the way</h2>
+            <p class="b-form__description">We’ve sent you an email with instructions for changing your password.</p>
+        </div>
+    </form>
+    <div class="b-auth__ext b-form">
+        <h2 class="b-form__title">Or use your account</h2>
+        <div ext-auth ></div>
+        <span class="b-auth__link">Don't have an account? <a href="#/registration"><strong>Sign up free!</strong></a></span>
+    </div>
+</div>

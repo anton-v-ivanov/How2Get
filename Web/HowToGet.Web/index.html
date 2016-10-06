@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>rutta.me - Share your travel experience. Find something new.</title>
+    <meta name="description" content="rutta.me - social platform, where you can share your travel experience and find new routes for your next trip. Simple, fast and free.">
+    <meta name="keywords" content="trip, travel, route planning, trip planning, travel planning, social route planner, how to get from, how to get to">
+    <meta name="author" content="rutta.me">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="fb-root"></div>
+
+    <div class="b-page">
+        <div ng-include="'partials/components/header.html'"></div>
+        <div ng-include="'partials/emailRequired.html'"></div>
+        <div class="content" ng-view></div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAffvKNYy_ZUwqcJtl0Ji4QfzaJCTbV968&sensor=false&language=en"></script>
+    <script src="libs/jquery/jquery-1.10.2.min.js"></script>
+    <script src="libs/jquery.marcopolo/jquery.marcopolo.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-resource.min.js"></script>
+    <script src="libs/signalr/jquery.signalR-1.1.3.min.js"></script>
+    <script src="/signalr/hubs"></script>
+
+    
+    <script  src="js/app.js"></script>
+
+    <script src="js/services/client.js"></script>
+    <script src="js/services/route.js"></script>
+    <script src="js/services/currency.js"></script>
+    <script src="js/services/hubProxy.js"></script>
+    <script src="js/services/token.js"></script>
+
+    <script src="js/filters/minToTime.js"></script>
+
+    <script src="js/directives/cityAutoComplete.js"></script>
+    <script src="js/directives/carrierAutoComplete.js"></script>
+    <script src="js/directives/googleMap.js"></script>
+    <script src="js/directives/dropdownToggle.js"></script>
+    <script src="js/directives/toggle.js"></script>
+    <script src="js/directives/time.js"></script>
+    <script src="js/directives/pageLoader.js"></script>
+    <script src="js/directives/costType.js"></script>
+
+    <!--<script src="js/controllers/header.js"></script>-->
+    <script src="js/controllers/promo.js"></script>
+    <script src="js/controllers/login.js"></script>
+
+    <script src="js/controllers/ext-services/fb.js"></script>
+    <script src="js/controllers/ext-services/google.js"></script>
+    <script src="js/controllers/ext-services/vk.js"></script>
+    <script src="js/controllers/ext-services/4sq.js"></script>
+    <script src="js/controllers/ext-auth.js"></script>
+
+    <script src="js/controllers/register.js"></script>
+    <script src="js/controllers/logout.js"></script>
+    <script src="js/controllers/token.js"></script>
+    <script src="js/controllers/ext-auth.js"></script>
+
+    <script src="js/controllers/home.js"></script>
+
+    <script src="js/controllers/route.js"></script>
+    <script src="js/controllers/addRoute.js"></script>
+    <script src="js/controllers/editRoute.js"></script>
+    <script src="js/controllers/routeForm.js"></script>
+    <script src="js/controllers/RouteFormPartCtrl.js"></script>
+    <script src="js/controllers/extraRouteCtrl.js"></script>
+    <script src="js/controllers/profile.js"></script>
+    
+
+    <script src="js/controllers/notifications.js"></script>
+
+    <script src="js/all.js"></script>
+
+    <div ng-include="'partials/notifications.html'"></div>
+
+    <div ng-include="'partials/external-scripts.html'"></div>
+    <div ng-include="'partials/google-analytics.html'"></div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<div ng-controller="TopUsersCtrl" class="top-users">
+    <h4>Top travellers:</h4>
+    <ul class="users" ng-repeat="user in users">
+        <li>
+            <a href="#/user/{{user.UserId}}" title="View profile">
+                <span class="name">{{user.UserName}}</span> <span ng-show="user.HomeCity && user.HomeCountry">({{user.HomeCity}}, {{user.HomeCountry}})</span>
+            </a>
+        </li>
+    </ul>
+</div>

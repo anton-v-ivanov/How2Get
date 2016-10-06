@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="howtoget">
+<head>
+    <meta charset="utf-8">
+    <title>How To Get</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class="route-form">
+            <label>Origin: </label>
+			<input type="text" id="origin" />
+            <label>Destination: </label>
+			<input type="text" id="destination" />
+            <input type="button" value="Search" onclick="search()" />
+            <input type="button" value="Add route" onclick="addRoute()" />
+			<input type="button" value="Get User Data" onclick="getUserData()" />
+
+        </div>
+    </section>
+
+    <p id="info"/>
+
+    <div id="routeDetails">
+        <label>Route description: <input type="text" id="description" /></label>
+    </div>
+
+    <div>
+        <label>RouteId: </label>
+		<input type="text" id="routeId" value="50be64434649091b58df8e76"/>
+		<input type="button" value="Get Route By Id" onclick="getRoute()" />
+
+    </div>
+
+	<div>
+		<input type="button" value="Get Routes for current user" onclick="getRouteForCurrentUser()" />
+	</div>
+	<div>
+		<input type="text" id="userId" value="50be4b13464909167c0109c0"/>
+		<input type="button" value="Get Routes By UserId" onclick="getRoutesByUserId()" />
+	</div>
+	<div>
+		<input type="button" value="Delete Route" onclick="deleteRoute()" /><br/>
+		<input type="button" value="Delete Route Part" onclick="deleteRoutePart()" /><br/>
+		<input type="button" value="Update Route" onclick="updateRoute()" /><br/>
+	</div>
+
+	<div id="routeData"></div>
+
+	<div>
+		<input type="button" value="4sq test" onclick="fsqtest()" />
+	</div>
+
+	<div>
+		<input type="text" id="routeSubscribeEmail" value="asdsada@dfsdf.com"/>
+		<input type="button" value="subscribe to route test" onclick="routeSubscribeTest()" />
+		<input type="button" value="unsubscribe from route test" onclick="routeUnSubscribeTest()" />
+	</div>
+
+    <script type="text/javascript">
+
+		function routeSubscribeTest() {
+			
+			var email = $('#routeSubscribeEmail').val();
+
+			$.ajax({
+				url: '/api/routeannounce',
+				type: "POST",
+				data:
+				{
+  					"origin": "512e65c94649091074d0f041",
+  					"destination": "512e65d64649091074d12414",
+  					"email": email
+				},
+				success: function(response, textStatus, jqXHR){
+					alert("subscribed!");
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		};
+		
+		function routeUnSubscribeTest() {
+			
+			var email = $('#routeSubscribeEmail').val();
+
+			$.ajax({
+				url: '/api/routeannounce',
+				type: "DELETE",
+				data:
+				{
+  					"origin": "512e65c94649091074d0f041",
+  					"destination": "512e65d64649091074d12414",
+  					"email": email
+				},
+				success: function(response, textStatus, jqXHR){
+					alert("subscribed!");
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		};
+		
+		var token = '50fefc2b4649091edc4dbade';
+		function deleteRoute() {
+			var id = "50ca469546490919d824a1ef";
+			$.ajax({
+				url: '/api/route/delete?id=' + id,
+				type: "POST",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				success: function(response, textStatus, jqXHR){
+					alert("route deleted");
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		};
+
+    	function fsqtest() {
+			$.ajax({
+				url: '/api/foursqpush',
+				type: "POST",
+				data:
+				{
+				    "id": "4e6fe1404b90c00032eeac34",
+				    "createdAt": 1315955008,
+				    "type": "checkin",
+				    "timeZoneOffset": -240,
+				    "user": {
+				        "id": "41408855",
+				        "firstName": "Jimmy",
+				        "lastName": "Foursquare",
+				        "photo": "https://foursquare.com/img/blank_boy.png",
+				        "gender": "male",
+				        "homeCity": "New York, NY",
+				        "relationship": "self"
+				    },
+				    "venue": {
+				        "id": "4ab7e57cf964a5205f7b20e3",
+				        "name": "foursquare HQ",
+				        "contact": {
+				            "twitter": "foursquare"
+				        	},
+				        	"location": {
+					            "address": "East Village",
+					            "lat": 40.72809214560253,
+					            "lng": -73.99112284183502,
+					            "city": "New York",
+					            "state": "NY",
+					            "postalCode": "10003",
+					            "country": "USA"
+					        },
+				        "categories": [
+				            {
+				                "id": "4bf58dd8d48988d125941735",
+				                "name": "Tech Startup",
+				                "pluralName": "Tech Startups",
+				                "shortName": "Tech Startup",
+				                "icon": "https://foursquare.com/img/categories/building/default.png",
+				                "parents": [
+				                    "Professional & Other Places",
+				                    "Offices"
+				                ],
+				                "primary": true
+				            }
+				        ],
+				        "verified": true,
+				        "stats": {
+				            "checkinsCount": 7313,
+				            "usersCount": 565,
+				            "tipCount": 128
+				        },
+				        "url": "http://foursquare.com"
+				    }
+				},
+				success: function(response, textStatus, jqXHR){
+					alert("ok");
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		};
+
+		function deleteRoutePart() {
+			var id = "50ca469546490919d824a1f0";
+			$.ajax({
+				url: '/api/route/removepart?id=' + id,
+				type: "POST",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				success: function(response, textStatus, jqXHR){
+					alert("route deleted");
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + jqXHR.responseText);
+				}
+			});
+		};
+
+		function updateRoute() {
+			$.ajax({
+				url: '/api/route/update',
+				type: "POST",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				data:
+				{
+					Id: "50be64434649091b58df8e76",
+					Description: "updated Test 2",
+					RouteParts:
+					[
+						{
+							Id: "50c33fb74649091d8074e16a",
+							OriginCityId: 2,
+							DestinationCityId: 5,
+							Description: "updated description 3",
+							CarrierName: "Trenitalia",
+							Date: '13.12.12'
+						}
+					]
+				},
+				success: function(response, textStatus, jqXHR){
+					$('#routeId').value = response;
+					alert("route added Id = " + response);
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		};
+		function search() {
+            var origin = $('#origin').val();
+            var destination = $('#destination').val();
+
+            $.getJSON("/api/route/?origin=" + origin + "&destination=" + destination,
+               function (data) {
+                   $.each(data, function (key, val) {
+                       var str = 'Id = ' + val.Id + ' Description = ' + val.Description + ' Cost = ' + val.Cost + ' CarrierName = ' + val.CarrierName;
+                       $('<li/>', { text: str })
+                       .appendTo($('#info'));
+                   });
+               });
+        };
+
+		function getRoutesByUserId() {
+			var id = $('#userId').val();
+
+            $.ajax({
+				url: '/api/route?userId=' + id,
+				type: "GET",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				success: function(response, textStatus, jqXHR){
+					$('#routeData').text(response);
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+        };
+
+		function getRouteForCurrentUser() {
+
+            $.ajax({
+				url: '/api/route/user',
+				type: "GET",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				success: function(response, textStatus, jqXHR){
+					$('#routeData').text(response);
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+        };
+
+		function getRoute() {
+            var id = $('#routeId').val();
+
+            $.ajax({
+				url: '/api/route/?id=' + id,
+				type: "GET",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				success: function(response, textStatus, jqXHR){
+					$('#routeData').text(response.childNodes);
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+        };
+
+        function addRoute() {
+            var originCityId = $('#origin').val();
+            var destinationCityId = $('#destination').val();
+            var description = $('#description').val();
+
+			$.ajax({
+				url: '/api/route/add',
+				type: "POST",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				data:
+				{
+					Description: "test",
+					RouteParts:
+					[
+						{
+							OriginCityId: originCityId,
+							DestinationCityId: destinationCityId,
+							Description: description,
+							CarrierName: "RZD",
+							Time: 10,
+							TimeType: 1,
+							Cost: 10,
+							CostCurrency: 43,
+							Date: '13.11.12'
+						}
+					]
+				},
+				success: function(response, textStatus, jqXHR){
+					$('#routeId').value = response;
+					alert("route added Id = " + response);
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		}
+
+		function getUserData() {
+			$.ajax({
+				url: '/api/user',
+				type: "GET",
+				beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+				},
+				success: function(response, textStatus, jqXHR){
+						console.log("UserName " + response.UserName + " Email " + response.Email + " Pict " + response.Picture);
+				},
+				error: function(jqXHR, textStatus, errorThrown){
+					 alert("error " + errorThrown);
+				}
+			});
+		};
+    </script>
+</body>
+</html>

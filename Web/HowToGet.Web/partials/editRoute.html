@@ -1,0 +1,20 @@
+<div class="edit-route-page">
+    <div ng-show="client.authorized()">
+
+        <div ng-show="isMe">
+            <h2 class="title">Edit route:</h2>
+
+            <div ng-include="'partials/routeForm.html'"></div>
+        </div>
+
+        <div ng-show="!isMe">
+
+            <p>Sorry, you don't have permission to edit this route.</p>
+
+        </div>
+    </div>
+
+    <div ng-show="!client.authorized()">
+        <p>Please login or register to edit your route.</p>
+    </div>
+</div>

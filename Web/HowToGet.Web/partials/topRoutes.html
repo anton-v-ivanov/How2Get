@@ -1,0 +1,11 @@
+<div ng-controller="TopRoutesCtrl" class="top-routes">
+    <h4>Top routes:</h4>
+    <ul class="routes" ng-repeat="route in routes">
+        <li>
+            <a href="#/route/{{route.Id}}" title="View details">
+                <span class="part">{{route.OriginCityInfo.Name}}, {{route.OriginCityInfo.Country}}</span> &rarr;
+                <span class="part">{{route.DestinationCityInfo.Name}}, {{route.DestinationCityInfo.Country}}</span>
+            </a>
+        </li>
+    </ul>
+</div>

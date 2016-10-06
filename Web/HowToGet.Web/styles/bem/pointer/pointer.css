@@ -1,0 +1,8 @@
+.b-pointer {
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    font-weight: bold;
+    color: #f38f0c;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAYAAAAxrNxjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAERJREFUeNpi+P//PwM2/Lmf5z8yn4kBD/gygfc/jM0I0slAAPAUfGZkYiACgEwmSiHIREaQQ/G5D6QIRDMRMgnGBggwAGhBMHc/eS/VAAAAAElFTkSuQmCC);
+}

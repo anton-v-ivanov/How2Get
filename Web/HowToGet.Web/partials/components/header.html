@@ -1,0 +1,37 @@
+<div class="b-header" ng-switch on="client.authorized()">
+    <div class="b-header__section" ng-switch-when="true">
+        <ul class="b-menu">
+            <li class="b-menu__item">
+                <span ng-controller="LogoutCtrl">
+                    <button type="button" class="b-button b-button_type_accept" ng-disabled="busy" ng-click="logout()">Logout</button>
+                    <span ng-show="errorMessage" ng-bind="errorMessage"></span>
+                </span>
+            </li>
+            <li class="b-menu__item">
+                <a href="#/profile" title="Your profile">Hi, {{client.userName}}!</a>
+            </li>
+            <li class="b-menu__item">
+                <a href="#/profile" title="Your profile"><img ng-src="{{client.picture}}" alt="userpic" width="16" height="16"/></a>
+            </li>
+        </ul>
+    </div>
+    <div class="b-header__section" ng-switch-when="false">
+        <div class="b-header__login">
+            <form class="b-form" name="loginForm" ng-controller="LoginCtrl" ng-submit="loginForm.$invalid || login(email, password)" novalidate>
+                <div class="b-form__fields">
+                    <div class="b-from__field">
+                        <input type="email" ng-model="email" placeholder="Email" class="b-from__data" ng-disabled="busy" required />
+                    </div>
+                    <div class="b-from__field">
+                        <input type="password" ng-model="password" placeholder="Password" class="b-from__data" ng-disabled="busy" required />
+                    </div>
+                </div>
+                <div class="b-form__error" ng-show="errorMessage" ng-bind="errorMessage"></div>
+                <div class="b-form__action">
+                    <button type="submit" class="b-button b-button_type_accept" ng-disabled="busy">Login</button>
+                </div>
+                <a class="b-auth__link b-auth__link_dir_right" href="#/restore">Forgot password?</a>
+            </form>
+        </div>
+    </div>
+</div>

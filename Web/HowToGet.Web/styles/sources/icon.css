@@ -1,0 +1,63 @@
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.icon.carrier {
+    width: 19px;
+    height: 21px;
+    background: url("/img/sprite.png") 0 -32px no-repeat;
+    vertical-align: middle;
+    text-indent: -9999px;
+}
+
+.icon.carrier.type-0 {
+    background-position: -64px -32px;
+}
+
+.icon.carrier.type-0.active {
+    background-position: -64px -97px;
+}
+
+.icon.carrier.type-1 {
+    width: 21px;
+    background-position: -160px -32px;
+}
+
+.icon.carrier.type-1.active {
+    background-position: -160px -97px;
+}
+
+.icon.carrier.type-2 {
+    background-position: 0 -32px;
+}
+
+.icon.carrier.type-2.active {
+    background-position: 0 -97px;
+}
+
+.icon.carrier.type-3 {
+    width: 20px;
+    background-position: -96px -32px;
+}
+
+.icon.carrier.type-3.active {
+    background-position: -96px -97px;
+}
+
+.icon.carrier.type-4 {
+    background-position: -128px -32px;
+}
+
+.icon.carrier.type-4.active {
+    background-position: -128px -97px;
+}
+
+.icon.carrier.type-5 {
+    background-position: -32px -32px;
+}
+
+.icon.carrier.type-5.active {
+    background-position: -32px -97px;
+}

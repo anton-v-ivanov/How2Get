@@ -1,0 +1,34 @@
+.b-search-box {
+    display: table;
+    margin-bottom: 50px;
+}
+
+.b-search-box__origin,
+.b-search-box__destination,
+.b-search-box__action,
+.b-search-box__add,
+.b-search-box__jumper,
+.b-search-box__search {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.b-search-box__origin,
+.b-search-box__destination {
+    width: 280px;
+}
+
+.b-search-box__jumper {
+    width: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.b-search-box__add {
+    width: 120px;
+    text-align: right;
+}
+
+.b-search-box .b-button {
+    width: 98px;
+}

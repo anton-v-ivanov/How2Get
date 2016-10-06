@@ -1,0 +1,54 @@
+.search-form {
+    width: 620px;
+    margin: 0 auto 60px auto;
+}
+
+.search-form .origin,
+.search-form .destination {
+    width: 280px;
+    float: left;
+}
+
+.search-form .origin {
+    position: relative;
+    margin-right: 60px;
+}
+
+.search-form .origin:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 19px;
+    height: 27px;
+    background: url("/img/sprite.png") 0 0 no-repeat;
+}
+
+.search-form .button {
+    position: relative;
+    display: block;
+    width: 280px;
+    margin: 10px auto 0 auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.search-form .button.add-route:after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    width: 29px;
+    height: 27px;
+    background: url("/img/sprite.png") -24px 0 no-repeat;
+}
+
+.search-form .button.search:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: 13px;
+    width: 21px;
+    height: 21px;
+    background: url("/img/sprite.png") -58px 0 no-repeat;
+}

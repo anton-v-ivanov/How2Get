@@ -1,0 +1,33 @@
+.b-auth {
+    display: table;
+    width: 600px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.b-auth__main {
+    display: table-cell;
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.b-auth__ext {
+    display: table-cell;
+    width: 50%;
+    background: #9fcbda;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+}
+
+.b-auth__ext a {
+    color: #fff;
+}
+
+.b-auth__link {
+    position: absolute;
+    bottom: 25px;
+}
+
+.b-auth__link_dir_right {
+    right: 20px;
+}

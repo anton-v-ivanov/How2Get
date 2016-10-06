@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>How2Get</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script id="loader-script" type="text/javascript" src="js/libs/jal.js"></script>
+</head>
+<body>
+
+<section id="page-wrapper">
+    <section class="header">
+        <a href="#/" class="logo">how2get.to</a>
+        <p class="slogan">A brand new way to find the route for your trip. From people to people.</p>
+    </section>
+
+    <section id="search"></section>
+    <section id="content"></section>
+    <section id="sidebar-container"></section>
+    <section id="footer"></section>
+    <div id="loader"></div>
+</section>
+
+<script type="text/template" id="sidebar-template">
+    <div class="sidebar-toggle">
+        <span class="title">Sign In</span>
+    </div>
+    <h2 class="title">how2get.to</h2>
+    <div class="content"></div>
+</script>
+
+<script type="text/template" id="profile-template">
+    <div class="profile">
+        <h3>Profile</h3>
+        <h4><%= name %></h4>
+        <p>Your routes:</p>
+
+        <% if (routes.length) { %>
+            <ol>
+                <% _.each(routes, function(route) { %>
+                    <li>
+                        <p>Description: <%= route.Description %></p>
+                        <% if (route.RouteParts.length) { %>
+                            <ul>
+                            <% _.each(route.RouteParts, function(part) { %>
+                                <li>
+                                    <p>Part description: <%= part.Description %></p>
+                                    <p>Cost: <%= part.Cost %></p>
+                                    <p>Origin: <%= part.OriginCityId %></p>
+                                    <p>Destination: <%= part.DestinationCityId %></p>
+                                </li>
+                            <% }); %>
+                            </ul>
+                        <% } %>
+                    </li>
+                <% }); %>
+            </ol>
+        <% } else { %>
+
+        <% } %>
+    </div>
+</script>
+
+<script type="text/template" id="auth-template">
+    <form id="login-form" class="active">
+        <div class="field-wrapper">
+            <label>Email</label>
+            <div class="field">
+                <input type="text" id="login-email" />
+            </div>
+        </div>
+
+        <div class="field-wrapper">
+            <label>Password</label>
+            <div class="field">
+                <input type="password" id="login-password" />
+            </div>
+        </div>
+
+        <div class="field-wrapper remember">
+            <label>
+                <input type="checkbox" id="login-remember" />
+                Remember me
+            </label>
+        </div>
+
+        <div class="button-wrapper">
+            <button class="button" id="login-submit">Login</button>
+        </div>
+
+        <p class="option">Or you can <span class="action open-reg-form">Join in</span></p>
+    </form>
+
+    <form id="reg-form">
+        <div class="field-wrapper">
+            <label>Name</label>
+            <div class="field">
+                <input type="text" id="reg-name" />
+            </div>
+        </div>
+
+        <div class="field-wrapper">
+            <label>Email</label>
+            <div class="field">
+                <input type="text" id="reg-email" />
+            </div>
+        </div>
+
+        <div class="field-wrapper">
+            <label>Password</label>
+            <div class="field">
+                <input type="password" id="reg-password" />
+            </div>
+        </div>
+
+        <div class="field-wrapper">
+            <label>
+                <input type="checkbox" id="reg-remember" />
+                Remember me
+            </label>
+        </div>
+
+        <div class="button-wrapper">
+            <button class="button" id="reg-submit">Sign up</button>
+        </div>
+
+        <p class="option">Or you can <span class="action open-login-form">Log in</span></p>
+    </form>
+</script>
+
+<script type="text/template" id="sidebar-profile-template">
+    <p class="user-name"><strong><%= name %></strong></p>
+	<p><a href="#profile">My profile</a></p>
+</script>
+
+<script type="text/template" id="search-template">
+    <div class="search-form">
+        <div class="fields">
+            <div class="field">
+                <input type="text" placeholder="Origin" class="autocomplete origin">
+            </div>
+            <span class="icon pointer"></span>
+            <div class="field">
+                <input type="text" placeholder="Destination" class="autocomplete destination">
+            </div>
+        </div>
+        <div class="actions">
+            <button class="button add">Add your route</button>
+            <button class="button primary search">Search</button>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="search-result-template">
+    <h2>Search result</h2>
+    <% if (routes.length) { %>
+        <ol class="route-list">
+            <% _.each(routes, function(route) { %>
+                <li class="route">
+                    <p>Id: <%= route.Id %></p>
+                    <ul>
+                        <% _.each(route.RouteParts, function(routePart) { %>
+                            <li>
+                                <p>Coast: <%= routePart.Cost + ' ' + routePart.CostCurrencyCode %></p>
+                                <p>Origin: <%= routePart.OriginCityInfo.Name %>, <%= routePart.OriginCityInfo.Country %></p>
+                                <p>Destination: <%= routePart.DestinationCityInfo.Name %>, <%= routePart.DestinationCityInfo.Country %></p>
+                                <p>Time: <%= routePart.Time + ' ' + routePart.TimeType %></p>
+                            </li>
+                        <% }); %>
+                    </ul>
+                </li>
+            <% }); %>
+        </ol>
+    <% } else { %>
+        <p>Not Found</p>
+    <% } %>
+</script>
+
+<script type="text/template" id="add-route-template">
+    <div id="add-route">
+        <h2>Add route</h2>
+
+        <div class="route-description-wrapper">
+            <textarea id="route-description" placeholder="Route description"></textarea>
+        </div>
+
+        <ol id="route"></ol>
+
+        <button class="button" id="add-part">Add part</button>
+        <button class="button" id="save-route">Save route</button>
+    </div>
+</script>
+
+<script type="text/template" id="add-route-part-template">
+    <li class="route-part">
+        <div class="field-wrapper description-wrapper">
+            <div class="field">
+                <textarea class="description" placeholder="Part description"/>
+            </div>
+        </div>
+
+        <div class="field-wrapper origin-wrapper">
+            <div class="field">
+                <input type="text" class="origin autocomplete" placeholder="Origin"/>
+            </div>
+        </div>
+
+        <div class="field-wrapper destination-wrapper">
+            <div class="field">
+                <input type="text" class="destination autocomplete" placeholder="Destination"/>
+            </div>
+        </div>
+
+        <div class="field-wrapper carrier-name-wrapper">
+            <div class="field">
+                <input type="text" class="carrier-name" placeholder="Carrier name" />
+            </div>
+        </div>
+
+        <div class="field-wrapper time-wrapper">
+            <div class="field">
+                <input type="text" class="time" placeholder="Time" />
+            </div>
+        </div>
+
+        <div class="field-wrapper time-type-wrapper">
+            <div class="field">
+                <input type="text" class="time-type" placeholder="Time type" />
+            </div>
+        </div>
+
+        <div class="field-wrapper cost-wrapper">
+            <div class="field">
+                <input type="text" class="cost" placeholder="Cost"/>
+            </div>
+        </div>
+
+        <div class="field-wrapper cost-currency-wrapper">
+            <div class="field">
+                <input type="text" class="cost-currency" placeholder="Cost currency"/>
+            </div>
+        </div>
+
+        <div class="field-wrapper date-wrapper">
+            <div class="field">
+                <input type="text" class="date" placeholder="Date"/>
+            </div>
+        </div>
+
+        <div class="delete-part-wrapper">
+            <button class="delete-part">Delete</button>
+        </div>
+    </li>
+</script>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

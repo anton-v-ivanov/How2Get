@@ -1,0 +1,27 @@
+#loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.8);
+    z-index: -100;
+    opacity: 0;
+
+    &:after {
+        content: "";
+        display: bloc;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        background: url("/img/loader.gif") 0 0 no-repeat;
+        width: 43px;
+        height: 11px;
+        margin: -5px 0 0 -21px;
+    }
+
+    &.show {
+        z-index: 100;
+        opacity: 1;
+    }
+}

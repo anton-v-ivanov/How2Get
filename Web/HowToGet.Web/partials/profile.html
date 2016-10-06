@@ -1,0 +1,38 @@
+<div class="profile-page" ng-show="client.authorized()">
+    <div class="clearfix user-info-wrapper">
+        <div class="user-info">
+            <div class="user-pic">
+                <img ng-src="{{client.picture}}" alt="userpic" />
+                <div class="shadow"></div>
+            </div>
+            <ul class="user-data">
+                <li class="name">{{client.userName}}</li>
+                <li>{{client.email}}</li>
+            </ul>
+        </div>
+        <div class="user-bages">
+            <div class="title">Coming soon</div>
+        </div>
+    </div>
+
+    <div class="clearfix">
+        <div class="routes-wrapper" ng-show="routesFound">
+            <div ng-include="'partials/routes.html'"></div>
+        </div>
+        <google-map></google-map>
+    </div>
+
+    <p class="routes-count"><strong>{{routesCount}}</strong> routes</p>
+
+    <ul ng-repeat="invite in invites">
+        <li>
+            {{invite.InviteCode}} 
+            <input type="button" value="send" ng-click="sendInvite(invite.Id)"/>
+        </li>
+    </ul>
+
+</div>
+
+<div ng-show="!client.authorized()">
+    <p>Please login or register to view your profile.</p>
+</div>

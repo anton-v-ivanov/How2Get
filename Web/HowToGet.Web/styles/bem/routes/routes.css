@@ -1,0 +1,9 @@
+.b-routes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.b-routes__route {
+    margin-bottom: 20px;
+}

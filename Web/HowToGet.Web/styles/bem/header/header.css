@@ -1,0 +1,14 @@
+.b-header {
+    background: rgba(255,255,255,.5);
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.b-header__login {
+    display: inline-block;
+}
+
+.b-header__login .b-form__fields .b-from__field {
+    display: inline-block;
+    width: 200px;
+}

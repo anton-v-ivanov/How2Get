@@ -1,0 +1,29 @@
+.button {
+    border: 1px solid #ffad1c;
+    text-shadow: 0 1px 0 #ff7c00;
+    margin: 0;
+    padding: .2em 2em;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    v-grd(#ffbf5f, #ffa228);
+    box-sizing(content-box);
+    border-radius(2em);
+    box-shadow(inset 0 1px 0 rgba(255,255,255,.7)\, 0 1px 2px rgba(0,0,0,.2));
+
+    &:active {
+        v-grd(#ffa228, #ffbf5f);
+    }
+
+    &.primary {
+        border-color: #9dca3b;
+        text-shadow: 0 1px 0 #9dca3b;
+        v-grd(#cee5a1, #b5d76f);
+
+        &:active {
+            v-grd(#b5d76f, #cee5a1);
+        }
+    }
+}

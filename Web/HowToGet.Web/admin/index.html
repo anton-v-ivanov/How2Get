@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rutta.me - Admin</title>
+</head>
+<body>
+	<script src="../libs/jquery/jquery-1.10.2.min.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+			$(document).ready(function() {
+				var token = localStorage['Authorization'];
+	            $.ajax({
+					url: '/api/admin/subscriptions',
+					type: "GET",
+					beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token);
+					},
+					success: function(response, textStatus, jqXHR){
+						var table_obj = $('#subscriptions');
+						$.each(response, function(index, item) {
+							var ind = index + 1;
+							table_obj.append($('<tr id="'+ index +'"><td>'+ ind +'</td><td>'+ item.Time +'</td><td>'+ item.Email +'</td><td>'+ item.Referrer +'</td><td>'+ item.Ip +'</td></tr>'));
+					});
+
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						 alert("error " + errorThrown);
+					}
+				});
+			return false;
+			});
+		});
+	</script>
+
+	<table id="subscriptions"></table>
+
+	<div>	
+		<p>Invites</p>
+		<label>UserId</label>
+		<input type="text" id="userId"/>
+		<label>Count</label>
+		<input type="text" id="count"/>
+		<input type="button" value="Show invites" onClick="showInvites()"/>
+		<input type="button" value="Generate invites" onClick="generateInvite()"/>
+
+		<table id="invites"></table>
+
+		<script type="text/javascript">
+		
+			function showInvites(){
+				var userId = $('#userId').val();
+				var token = localStorage['Authorization'];
+	            
+	            $.ajax({
+					url: '/api/admin/invite-show?userId=' + userId,
+					type: "GET",
+					beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token)},
+					success: function(response, textStatus, jqXHR){
+						var table_obj = $('#invites');
+						$.each(response, function(index, item) {
+							var ind = index + 1;
+							table_obj.append($('<tr id="'+ index +'"><td>'+ item.InviteCode +'</td></tr>'));
+					});
+
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						 alert("error " + errorThrown);
+					}
+				});
+			}
+
+			function generateInvite(){
+				var userId = $('#userId').val();
+				var count = $('#count').val();
+				var token = localStorage['Authorization'];
+	            $.ajax({
+					url: '/api/admin/invite-gen',
+					type: "POST",
+					beforeSend: function(xhr){xhr.setRequestHeader('Authorization', token)},
+					data: {
+							userId: userId,
+							count: count
+						}
+					,
+					success: function(response, textStatus, jqXHR){
+						var table_obj = $('#invites');
+						$.each(response, function(index, item) {
+							var ind = index + 1;
+							table_obj.append($('<tr id="'+ index +'"><td>'+ item.InviteCode +'</td></tr>'));
+					});
+
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						 alert("error " + errorThrown);
+					}
+				});
+			}
+		</script>
+	</div>
+</body>
+</html>

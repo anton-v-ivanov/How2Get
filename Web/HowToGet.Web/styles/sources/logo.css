@@ -1,0 +1,9 @@
+.logo {
+    display: inline-block;
+    width: 262px;
+    height: 54px;
+    background: url("/img/logo.png") 0 0 no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}

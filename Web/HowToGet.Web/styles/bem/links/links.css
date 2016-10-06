@@ -1,0 +1,38 @@
+.b-links {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+}
+
+.b-links__item {
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.b-links__item:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.b-links__item:first-child .b-links__link:after {
+    display: none;
+}
+
+.b-links__link {
+    position: relative;
+}
+
+.b-links__link:after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: -10px;
+    height: 80%;
+    width: 1px;
+    background: #fff;
+}

@@ -1,0 +1,27 @@
+<form name="searchForm" class="b-form b-search-box" ng-submit="searchForm.$invalid || search(query)" novalidate>
+    <div class="field b-search-box__origin">
+        <input type="text" placeholder="Start city" class="data" ng-model="query.origin.Name" city-id="query.origin.Id" city-lt="query.origin.Latitude" city-lg="query.origin.Longitude" country-id="query.origin.CountryId" city-auto-complete required />
+        <input type="hidden" ng-model="query.origin.Id" required />
+        <span class="indicator"></span>
+    </div>
+
+    <div class="b-search-box__jumper">
+        <span class="b-pointer"></span>
+    </div>
+
+    <div class="field b-search-box__destination">
+        <input type="text" placeholder="Destination city" class="data" ng-model="query.destination.Name" city-id="query.destination.Id" city-lt="query.destination.Latitude" city-lg="query.destination.Longitude" country-id="query.destination.CountryId" city-auto-complete required />
+        <input type="hidden" ng-model="query.destination.Id" required />
+        <span class="indicator"></span>
+    </div>
+
+    <div class="b-search-box__add">
+        <a href="#/add-route" class="b-button b-button_type_accept">Add</a>
+    </div>
+    <div class="b-search-box__jumper">
+        <span class="b-jumper">or</span>
+    </div>
+    <div class="b-search-box__search">
+        <button type="submit" class="b-button b-button_type_extra">Search</button>
+    </div>
+</form>

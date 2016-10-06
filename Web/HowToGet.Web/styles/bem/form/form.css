@@ -1,0 +1,66 @@
+.b-form {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 rgba(0,0,0,.1);
+    color: #737373;
+    background: #fff;
+}
+
+.b-form a {
+    color: #737373;
+}
+
+.b-form__title {
+    margin: 0 0 20px;
+    line-height: 1;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.b-from__field {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.b-from__data {
+    width: 100%;
+    margin: 0;
+    padding: 6px;
+    border: 1px solid #ccc;
+    color: #333;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+}
+
+.b-from__data.ng-dirty.ng-invalid {
+    border-color: #c30;
+    box-shadow: 0 0 8px rgba(255, 0, 0, .3);
+}
+
+.b-from__data:focus {
+    border-color: #ff9933;
+    box-shadow: 0 0 8px rgba(255, 204, 102, .7);
+}
+
+.b-form__action {
+    width: 100%;
+}
+
+.b-form__error {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 13px;
+    color: #c30;
+}
+
+.b-form__description {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    font-size: 13px;
+}

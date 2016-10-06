@@ -1,0 +1,36 @@
+@import url("libs/normalize.css");
+@import url("libs/jquery.marcopolo.css");
+
+@import url("sources/base.css");
+@import url("sources/dropdown.css");
+@import url("sources/pseudo-link.css");
+@import url("sources/field.css");
+@import url("sources/button.css");
+@import url("sources/social-buttons.css");
+@import url("sources/icon.css");
+@import url("sources/page-loader.css");
+
+@import url("sources/forms/login.css");
+@import url("sources/forms/register.css");
+@import url("sources/forms/extAuth.css");
+@import url("sources/forms/search.css");
+@import url("sources/forms/email-required.css");
+@import url("sources/forms/route-form.css");
+@import url("sources/validation.css");
+
+@import url("sources/logo.css");
+@import url("sources/header.css");
+@import url("sources/menu.css");
+@import url("sources/top-data.css");
+
+@import url("sources/map.css");
+@import url("sources/footer.css");
+
+@import url("sources/content.css");
+@import url("sources/search-result.css");
+@import url("sources/profile.css");
+@import url("sources/share.css");
+@import url("sources/news.css");
+
+@import url("sources/pages/add-route.css");
+@import url("sources/popup.css");

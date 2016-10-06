@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="howtoget">
+	<head>
+	    <meta charset="utf-8">
+	    <title>How To Get</title>
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	</head>
+	<body>
+		<form enctype="multipart/form-data">
+			<div>
+				<input name="image1" type="file" />
+			</div>
+			<div>
+				<input type="button" value="Upload" />
+			</div>
+		</form>
+		<progress></progress>
+		<ul id="image-list">  
+        </ul>  
+
+		<script type="text/javascript">
+			$(':file').change(function(){
+			    var file = this.files[0];
+			    name = file.name;
+			    size = file.size;
+			    type = file.type;
+			    if(type != "image/jpg" && type != "image/png" && type != "image/jpeg")
+			    	alert("Only JPG or PNG files are allowed");
+			});
+
+
+			var token = '50fefc2b4649091edc4dbade';
+			
+			$(':button').click(function(){
+			    var formData = new FormData($('form')[0]);
+			    $.ajax({
+			        url: '/api/user/upload',
+			        type: 'POST',
+			        xhr: function() {  // custom xhr
+			            myXhr = $.ajaxSettings.xhr();
+			            if(myXhr.upload){ // check if upload property exists
+			                myXhr.upload.addEventListener('progress',progressHandlingFunction, false); // for handling the progress of the upload
+			            }
+			            return myXhr;
+			        },
+			        //Ajax events
+			        beforeSend: function(xhr){
+			        	xhr.setRequestHeader('Authorization', token);
+			        },
+     				success: function(response, textStatus, jqXHR){
+     					showUploadedItem(response);
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						 console.log("error " + errorThrown);
+					},
+					// Form data
+			        data: formData,
+			        //Options to tell JQuery not to process data or worry about content-type
+			        cache: false,
+			        contentType: false,
+			        processData: false
+			    });
+			});
+			
+			function showUploadedItem (source) {  
+			    var list = document.getElementById("image-list"),  
+			        li   = document.createElement("li"),  
+			        img  = document.createElement("img");  
+			    img.src = source;  
+			    li.appendChild(img);  
+			    list.appendChild(li);  
+			};
+
+			function progressHandlingFunction(e){
+			    if(e.lengthComputable){
+			        $('progress').attr({value:e.loaded,max:e.total});
+			    }
+			};
+
+		</script>
+	</body>
+</html>

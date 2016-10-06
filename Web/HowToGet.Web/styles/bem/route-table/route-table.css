@@ -1,0 +1,36 @@
+.b-route-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.b-route-table thead {
+    color: #fff;
+    background: #ccc;
+}
+
+.b-route-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.b-route-table .b-route-table__name {
+    width: 15%;
+}
+
+.b-route-table .b-route-table__type {
+    width: 5%;
+}
+
+.b-route-table .b-route-table__carrier {
+    width: 30%;
+}
+
+.b-route-table .b-route-table__time {
+    width: 25%;
+}
+
+.b-route-table .b-route-table__cost {
+    width: 10%;
+}

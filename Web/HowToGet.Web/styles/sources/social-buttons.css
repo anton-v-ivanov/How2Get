@@ -1,0 +1,19 @@
+.fb-login,
+.google-login,
+.vk-login {
+    background: transparent url("/img/social.png") 0 0 no-repeat;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+}
+
+.fb-login {
+    background-position: -40px 0;
+}
+
+.google-login {
+    background-position: -79px 0;
+}

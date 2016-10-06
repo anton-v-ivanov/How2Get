@@ -1,0 +1,18 @@
+<div ng-controller="PromoCtrl">
+    <div class="promo-wrapper" ng-show="isVisibility">
+        <div class="promo">
+            <p><b>Be the first to register!</b><br/>
+            First 999 users will receive exclusive badge!</p>
+        </div>
+        <span class="more" ng-click="hide()">close</span>
+    </div>
+</div>
+
+<div ng-include="'partials/searchForm.html'"></div>
+
+<google-map></google-map>
+
+<div class="top-data">
+    <div ng-include="'partials/topRoutes.html'" class="top-routes-wrapper"></div>
+    <div ng-include="'partials/topUsers.html'" class="top-users-wrapper"></div>
+</div>

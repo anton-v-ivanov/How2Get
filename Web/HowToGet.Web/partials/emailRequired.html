@@ -1,0 +1,25 @@
+<div class="email-required" ng-show="client.emailRequired" ng-controller="ExtAuthFormCtrl">
+	<h3>Thank you for signing up!</h3>
+	<p>We need your email to identify you next time.</p>
+	<p>We promise not to spam, or give your contact information to a third party.</p>
+    
+    <form name="emailForm" ng-submit="emailForm.$invalid || emailEntered()" novalidate>
+        <div class="form-content">
+            <div ng-show="error.visible" ng-bind="error.text"></div>
+
+            <div class="field">
+                <input type="email" placeholder="Email" class="data" ng-model="user.email" required />
+            </div>
+            <div class="field">
+                <input type="text" placeholder="Invite" class="data" ng-model="user.Invite" required />
+            </div>
+
+        </div>
+
+        <div class="form-footer">
+            <button type="submit" class="button accept">Register and log in</button>
+            <span ng-click="closeEmailRequired()" class="cancel"><span>Cancel</span></span>
+        </div>
+
+    </form>
+</div>

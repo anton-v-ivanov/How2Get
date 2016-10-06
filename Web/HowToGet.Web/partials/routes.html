@@ -1,0 +1,34 @@
+<ol class="routes">
+    <li class="route open" ng-repeat="route in routes">
+        <div class="route-inner" ng-controller="extraRouteCtrl" ng-click="paintRoute(route)">
+            <p class="path">
+                <span ng-repeat="routePart in route.RouteParts">
+                    <span ng-switch="$last">
+                        <span class="city">{{routePart.OriginCityInfo.Name}}</span> → <span class="city" ng-switch-when="true">{{routePart.DestinationCityInfo.Name}}</span>
+                    </span>
+                </span>
+            </p>
+            <p class="time" ng-show="route.TotalMinutes">
+                <span ng-bind="route.TotalMinutes | minToTime"></span>
+            </p>
+        </div>
+
+        <div class="extra">
+            <p class="carriers-wrapper">
+                Carrier:
+                <ul class="carriers">
+                    <li class="carrier" ng-repeat="routePart in route.RouteParts" ng-show="routePart.CarrierName">
+                        to {{routePart.DestinationCityInfo.Name}} {{routePart.CarrierName}}
+                    </li>
+                </ul>
+            </p>
+            <p ng-show="isMe">
+                <a ng-href="#/edit-route/{{route.Id}}">Edit</a> | <span ng-show="isMe" class="delete" ng-click="showRemove = true">Delete</span>
+            </p>
+            <div class="remove-route-popup popup" ng-show="showRemove">
+                <p class="title"><strong>Are you sure you want to delete the route?</strong></p>
+                <p class="actions"><button class="button accept" ng-click="remove($index, route.Id)">OK</button> <button class="button extra" ng-click="showRemove = false">Cancel</button></p>
+            </div>
+        </div>
+    </li>
+</ol>

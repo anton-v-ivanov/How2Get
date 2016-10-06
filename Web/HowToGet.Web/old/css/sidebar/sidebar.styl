@@ -1,0 +1,49 @@
+#sidebar-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -219px;
+
+    width: 215px;
+    padding-left: 4px;
+
+    color: #7c91aa;
+    text-shadow: 0 1px 0 #d1deec;
+    background: #c3d3e6 url("/img/sidebar.png") 0 0 repeat-y;
+
+    transition(right .2s);
+
+    .sidebar-toggle {
+        position: absolute;
+        top: 20px;
+        left: -96px;
+
+        height: 50px;
+        width: 106px;
+        cursor: pointer;
+
+        color: #fff;
+        text-shadow: 0 1px 0 rgba(0,0,0,.3);
+        background: url("/img/sidebar-toggle.png") 0 0 no-repeat;
+
+        .title {
+            position: absolute;
+            top: 10px;
+            right: 18px;
+            width: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    > .title {
+        margin-top: 50px;
+
+        font-size: 13px;
+        text-align: center;
+    }
+
+    &.open {
+        right: 0;
+    }
+}

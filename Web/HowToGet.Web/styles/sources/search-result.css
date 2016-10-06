@@ -1,0 +1,95 @@
+.search-result {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.search-result > ol {
+    padding: 0;
+    margin: 0;
+}
+
+.search-result > ol li {
+    list-style: none;
+    border-top: 1px dotted #ccc;
+}
+
+.search-result > ol li:hover {
+    background: #ffffcc;
+}
+
+.search-result > ol li.open {
+    background: none;
+}
+
+.search-result > ol li.open .route.full {
+    display: block;
+}
+
+.search-result > ol li:first-child {
+    border: none;
+}
+
+.search-result .short .part .city {
+    display: inline-block;
+    line-height: 21px;
+}
+
+.search-result .short .parts {
+    width: 700px;
+}
+
+.search-result .short .time {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -11px;
+    margin-right: 25px;
+    line-height: 21px;
+}
+
+.search-result .state {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -8px;
+    line-height: 1;
+    font-size: 15px;
+    color: #ccc;
+}
+
+.search-result > ol li.open .state.closed {
+    display: block;
+}
+
+.search-result > ol li.open .state.opened {
+    display: none;
+}
+
+.search-result > ol li .state.opened {
+    display: block;
+}
+
+.search-result .route.short {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.search-result .route.full {
+    display: none;
+    margin: 0 15px 15px;
+}
+
+.search-result .route.full .link {
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.not-found {
+    text-align: center;
+}
